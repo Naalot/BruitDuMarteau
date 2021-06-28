@@ -4,78 +4,101 @@ layout = "default"
 is_hidden = 0
 ==
 {% partial 'header' %}
-<section class="page-banner-section pt-75 pb-75 img-bg" style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="banner-content">
-                            <h2 class="text-white">Nous contacter</h2>
-                            <div class="page-breadcrumb">
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item" aria-current="page"><a href="javascript:void(0)">Accueil</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Contacts</li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
+<section class="page-banner-section pt-75 pb-75 img-bg"
+    style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="banner-content">
+                    <h2 class="text-white">Nous contacter</h2>
+                    <div class="page-breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item" aria-current="page"><a href="/">Accueil</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            </ol>
+                        </nav>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ========================= page-banner-section end ========================= -->
+        </div>
+    </div>
+</section>
+<!-- ========================= page-banner-section end ========================= -->
 
-        <!-- ========================= contact-section start ========================= -->
-        <section class="contact-section pt-130">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="contact-item-wrapper">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-xl-12">
-                                    <div class="contact-item">
-                                        <div class="contact-icon">
-                                            <i class="lni lni-phone"></i>
-                                        </div>
-                                        <div class="contact-content">
-                                            <h4>Contacts</h4>
-                                            <h5 class="mb-2">Le Bruit du Marteau</h5>
-                                            <p>STAFF :</p>
-                                                <div class="container d-flex">
-                                                    <ul>
-                                                        <li>Léa : Organisatrice
-                                                            <li>06 77 45 81 00</li>
-                                                        </li>
-                                                        <li>Matthieu : Dir. technique
-                                                            <li>06 62 05 55 95</li>
-                                                        </li>
-                                                        <li>Carole : Régie générale
-                                                            <li>06 61 10 80 24</li>
-                                                        </li>
-                                                        <li>Mathilde : Orga./Technique
-                                                            <li>07 71 08 20 14</li>
-                                                        </li>
-                                                        <li>Claude : Relations Partenaires
-                                                            <li>06 71 51 00 75</li>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                        </div>
-                                    </div>
+<!-- ========================= contact-section start ========================= -->
+<section class="contact-section pt-130">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="contact-item-wrapper">
+                    <div class="row">
+
+                        <div class="col-12 col-md-6 col-xl-12">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="lni lni-envelope"></i>
                                 </div>
-                                <!--<div class="col-12 col-md-6 col-xl-12">
-                                    <div class="contact-item">
-                                        <div class="contact-icon">
-                                            <i class="lni lni-map-marker"></i>
-                                        </div>
-                                        <div class="contact-content">
-                                            <h4>Address</h4>
-                                            <p>175 5th Ave, New York, NY 10010 </p>
-                                            <p>United States</p>
-                                        </div>
-                                    </div>
+                                <div class="contact-content">
+                                    <h4>Écrivez nous à</h4>
+                                    <p><a href="mailto:lebruitdumarteau@gmail.com">lebruitdumarteau@gmail.com</a></p>
                                 </div>
-                                <div class="col-12 col-md-6 col-xl-12">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-12">
+                        <div class="contact-item col-12 col-md-6 col-xl-12">
+                            <div class="contact-icon">
+                                <i class="lni lni-information"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Le Bruit du Marteau </h4>
+                                <h4 style="font-size: 0.90em;">est un évènement porté par l'association :</h4>
+                                <h4>S.C.A.F.F.</h4>
+                                <p style="font-size: 0.80em; font-weight: bold;">Super Classe Association Folle Furieuse
+                                </p>
+                                <p>association de loi 1901,</p>
+                                <p>Le siège social est situé</p>
+                                <p style="font-size: 0.90em;">Mairie de Meyrié, Place de l'église,</p>
+                                <p>38300 Meyrié</p>
+                                <p style="font-size: 0.90em;">Siret : 809 765 316 00017</p>
+                                <p>APE : 9499Z</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-12">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="lni lni-phone"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Contacts</h4>
+                                <h5 class="mb-2">Le Bruit du Marteau</h5>
+                                <p>Les pilotes du Bruit du Marteau sont :</p>
+                                <div class="container d-flex">
+                                    <ul>
+                                        <li>- Léa : Présidente
+                                        <li>06 77 45 81 00</li>
+                                        </li>
+                                        <li>- Carole : Régie générale
+                                        <li>06 61 10 80 24</li>
+                                        </li>
+                                        <li>- Matthieu : Dir. technique
+                                        <li>06 62 05 55 95</li>
+                                        </li>
+                                        <li>- Claude : Trésorière
+                                        </li>
+                                        <li>- & Mathilde
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="col-12 col-md-6 col-xl-12">
                                     <div class="contact-item">
                                         <div class="contact-icon">
                                             <i class="lni lni-alarm-clock"></i>
@@ -86,11 +109,11 @@ is_hidden = 0
                                             <p>Office time: 10 AM - 5:30 PM</p>
                                         </div>
                                     </div>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-8">
+                                </div>
+                    </div>-->
+                </div>
+            </div>
+            <!--<div class="col-xl-8">
                         <div class="contact-form-wrapper">
                             <div class="row">
                                 <div class="col-xl-10 col-lg-8 mx-auto">
@@ -132,23 +155,24 @@ is_hidden = 0
                                 </div>
                             </form>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ========================= contact-section end ========================= -->
+                    </div>-->
+        </div>
+    </div>
+</section>
+<!-- ========================= contact-section end ========================= -->
 
-        <!-- ========================= map-section end ========================= -->
-        <section class="map-section">
-            <div class="map-container">
-                <object style="border:0; height: 690px; width: 100%;"
-                    data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7887109309127!2d-77.44196278417968!3d38.95165507956235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzA2LjAiTiA3N8KwMjYnMjMuMiJX!5e0!3m2!1sen!2sbd!4v1545420879707"></object>
-                </div>
-            </div>
-        </section>
-        <!-- ========================= map-section end ========================= -->
+<!-- ========================= map-section end ========================= -->
+<section class="map-section">
+    <div class="map-container m-3">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.3934106702686!2d5.293148315834531!3d45.56252673489765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b2ecf74a11a07%3A0x66ae1095d698a0a5!2sVers%20Ruffieu%2C%2038300%20Meyri%C3%A9!5e0!3m2!1sfr!2sfr!4v1624358355947!5m2!1sfr!2sfr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+</section>
+<!-- ========================= map-section end ========================= -->
 
-        <!-- ========================= client-logo-section start ========================= -->
+<!-- ========================= client-logo-section start ========================= 
         <section class="client-logo-section pt-100 pb-130">
             <div class="container">
                 <div class="client-logo-wrapper">
@@ -171,9 +195,11 @@ is_hidden = 0
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ========================= client-logo-section end ========================= -->
+        </section>-->
+<!-- ========================= client-logo-section end ========================= -->
 
-        
-        
-        {% partial 'footer' %}
+{% partial 'service' %}
+
+
+
+{% partial 'footer' %}
