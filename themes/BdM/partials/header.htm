@@ -59,10 +59,12 @@
                             -->
 
                         </ul>
-                        <form action="#" class="search-form">
-                            <input type="text" placeholder="Recherche">
+
+                        <form action="{{ 'recherche' | page }}" method="get" class="search-form">
+                            <input name="q" type="text" placeholder="Recherche" autocomplete="off">
                             <button type="submit"><i class="lni lni-search-alt"></i></button>
                         </form>
+
                     </div> <!-- navbar collapse -->
                 </nav> <!-- navbar -->
             </div>
