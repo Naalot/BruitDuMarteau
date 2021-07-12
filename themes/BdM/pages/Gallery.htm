@@ -1,16 +1,85 @@
 title = "Gallery"
-url = "/Gallery"
+url = "/gallery"
 layout = "default"
-description = "Test galerie BdM"
 is_hidden = 0
+
+[galleryId Gal01]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "lg-slide"
+speed = 600
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 140
+width = 200
+resizer = "auto"
+
 ==
-<!-- Gallery -->
-<div class="container-fluid">
+{% partial 'header' %}
+
+<h3 class="container text-center mb-5" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau #3</h3>
+
+<!-- Edition 01 -->
+<div class="wow fadeInRight container col-md-6 col-md-offset-3 col-xs-12">
     <div class="row">
+        <figure class="figure container border rounded mb-5">
+            <img src="{{ 'assets/images/BDM21.jpg' | theme }}" alt="" class="border img-fluid mt-3 mb-2">
+            <figcaption class="figure-caption mb-2">Le Bruit du Marteau 2019</figcaption>
+        </figure>
+    </div>
+</div>
+
+<!-- End Edition 01 -->
+
+<!-- Gallery 01-->
+
+<div class="wow fadeInLeft container-fluid mb-5 text-center">
+    <div class="row ">
         <!-- Make your own style div wrapper for gallery -->
-        <div class="col-md-6 col-md-offset-3 col-xs-12">
-            {% component 'gallery' %}
+        <div class="container border rounded col-md-6 col-md-offset-3 col-xs-12 p-3">
+            {% component 'Gal01' %}
         </div>
     </div>
 </div>
+
 <!-- End Gallery -->
+
+<h3 class="container text-center mb-5" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau #2</h3>
+
+<!-- Edition 01 -->
+<div class="wow fadeInRight container col-md-6 col-md-offset-3 col-xs-12">
+    <div class="row">
+        <figure class="figure container border rounded mb-5">
+            <img src="{{ 'assets/images/BDM21.jpg' | theme }}" alt="" class="border img-fluid mt-3 mb-2">
+            <figcaption class="figure-caption mb-2">Le Bruit du Marteau 2019</figcaption>
+        </figure>
+    </div>
+</div>
+
+<!-- End Edition 01 -->
+
+<!-- Gallery 01-->
+
+<div class="wow fadeInLeft container-fluid mb-5 text-center">
+    <div class="row ">
+        <!-- Make your own style div wrapper for gallery -->
+        <div class="container border rounded col-md-6 col-md-offset-3 col-xs-12 p-3">
+            {% component 'Gal01' %}
+        </div>
+    </div>
+</div>
+
+<!-- End Gallery -->
+
+{% partial 'service' %}
+
+{% partial 'footer' %}
