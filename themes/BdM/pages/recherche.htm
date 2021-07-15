@@ -2,19 +2,12 @@ title = "Recherche"
 url = "/recherche"
 layout = "default"
 is_hidden = 0
-
-[searchResults]
-resultsPerPage = 10
-showProviderBadge = 1
-noResultsMessage = "Votre recherche n'a pas donnée de résultats"
-visitPageMessage = "Visiter la page"
 ==
-
 {% partial 'header' %}
 
 <h2>Résultats pour "{{ searchResults.query }}"</h2>
 
-{% component 'searchResults' %}
+<!---->
 
 {% partial 'service' %}
 
