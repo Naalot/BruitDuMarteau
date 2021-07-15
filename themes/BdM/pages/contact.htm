@@ -6,15 +6,14 @@ is_hidden = 0
 [emptyForm contactForm]
 messages_success = "Votre formulaire a été envoyé avec succès"
 messages_errors = "Il y a eu des erreurs dans votre formulaire"
-mail_resp_enabled = 0
+reset_form = 1
 inline_errors = "disabled"
 sanitize_data = "htmlspecialchars"
 anonymize_ip = "disabled"
-recaptcha_enabled = 0
 recaptcha_theme = "light"
 recaptcha_type = "image"
 recaptcha_size = "normal"
-emails_date_format = "d-m-Y"
+emails_date_format = "Y-m-d"
 ==
 {% partial 'header' %}
 <section class="page-banner-section pt-75 pb-75 img-bg"
@@ -126,7 +125,7 @@ emails_date_format = "d-m-Y"
                     </div>-->
                 </div>
             </div>
-            <div class="col-xl-6">
+            <!--<div class="col-xl-6">
                 <div class="contact-form-wrapper">
                     <div class="row">
                         <div class="col-xl-10 col-lg-8 mx-auto">
@@ -168,40 +167,13 @@ emails_date_format = "d-m-Y"
                             </div>
                         </div>
                     </form>
+                    
+                 
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
-
-<form data-request="{{ __SELF__ }}::onFormSubmit">
-
-    {{ form_token(contactForm) }}
-
-    <div id="{{ __SELF__ }}_forms_flash"></div>
-
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" class="form-control">
-    </div>
-
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" class="form-control">
-    </div>
-
-    <div class="form-group">
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" class="form-control">
-    </div>
-
-    <div class="form-group">
-        <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
-    </div>
-
-    <button id="simpleContactSubmitButton" type="submit" class="btn btn-default">Submit</button>
-
-</form>
 
 <!-- ========================= contact-section end ========================= -->
 
