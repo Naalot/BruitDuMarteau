@@ -37,20 +37,21 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
         $macros = $this->macros;
         // line 1
         echo "<header class=\"header navbar-area position-sticky mb-3\">
-        <div class=\"container-fluid\" style=\"padding: 0;\">
-            <div class=\"row align-items-center\">
-                <div class=\"col-lg-12\">
-                    <nav class=\"navbar navbar-expand-lg pt-1 pb-1\" style=\"background-color: #EE8126; padding: 1em; color:#666666;\">
-                        <a class=\"navbar-brand\" href=\"";
-        // line 6
+    <div class=\"container-fluid\" style=\"padding: 0;\">
+        <div class=\"row align-items-center\">
+            <div class=\"col-lg-12\">
+                <nav class=\"navbar navbar-expand-lg pt-1 pb-1\"
+                    style=\"background-color: #EE8126; padding: 1em; color:#666666;\">
+                    <a class=\"navbar-brand\" href=\"";
+        // line 7
         echo url("/");
         echo "\">
-                            <img src=\"";
-        // line 7
+                        <img src=\"";
+        // line 8
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo/BdMlogo.png");
         echo "\" alt=\"Logo\">
-                        </a>
-                        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\"
+                    </a>
+                    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\"
                         data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\"
                         aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                         <span class=\"toggler-icon\"></span>
@@ -62,21 +63,22 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                         <ul id=\"nav\" class=\"navbar-nav ml-auto\">
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 20
+        // line 21
         echo url("/");
         echo "\">Accueil</a>
                             </li>
-                
+
                             <li class=\"nav-item dropdown\">
                                 <!--<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Infos
                                 </a>-->
-                                <a class=\"nav-link\" href=\"/Presque_BdM\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                                <a class=\"nav-link\" href=\"/Presque_BdM\" id=\"navbarDropdown\" role=\"button\"
+                                    data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Le Presque BdM
                                 </a>
                                 <!--<ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 31
+        // line 33
         echo url("/about");
         echo "\">À propos</a></li>
                                   <li><hr class=\"dropdown-divider\"></li>
@@ -87,44 +89,67 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 39
+        // line 41
         echo url("/service");
         echo "\">Inscription</a>
                             </li>-->
 
+                            <li class=\"nav-item dropdown\">
+                                <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\"
+                                    role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                                    Inscriptions
+                                </a>
+                                <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
+                                    <li><a class=\"dropdown-item\" href=\"";
+        // line 50
+        echo url("/inscription_scaff");
+        echo "\">SCAFF</a></li>
+                                    <li>
+                                        <hr class=\"dropdown-divider\">
+                                    </li>
+                                    <li><a class=\"dropdown-item\"
+                                            href=\"";
+        // line 55
+        echo url("/inscription_benevoles");
+        echo "\">Bénévoles</a></li>
+                                </ul>
+                            </li>
+
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 43
+        // line 60
         echo url("/gallery");
         echo "\">Galerie</a>
                             </li>
 
-                              <li class=\"nav-item dropdown\">
+                            <li class=\"nav-item dropdown\">
                                 <a class=\"nav-link dropdown-toggle\" href=\"";
-        // line 47
+        // line 64
         echo url("/contact");
-        echo "\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+        echo "\"
+                                    id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
+                                    aria-expanded=\"false\">
                                     Contacts
                                 </a>
                                 <!--
                                 <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 52
+        // line 71
         echo url("/contact");
         echo "\">Nous contacter</a></li>
                                   <li><hr class=\"dropdown-divider\"></li>
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 54
+        // line 73
         echo url("/404");
         echo "\">Partenaires</a></li>
-                                </ul>
-                              </li>
-                            -->
+                                </ul>-->
+                            </li>
+
 
                         </ul>
 
                         <form action=\"";
-        // line 61
+        // line 80
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("recherche");
         echo "\" method=\"get\" class=\"search-form\">
                             <input name=\"q\" type=\"text\" placeholder=\"Recherche\" autocomplete=\"off\">
@@ -152,20 +177,21 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
     public function getDebugInfo()
     {
-        return array (  128 => 61,  118 => 54,  113 => 52,  105 => 47,  98 => 43,  91 => 39,  80 => 31,  66 => 20,  50 => 7,  46 => 6,  39 => 1,);
+        return array (  153 => 80,  143 => 73,  138 => 71,  128 => 64,  121 => 60,  113 => 55,  105 => 50,  93 => 41,  82 => 33,  67 => 21,  51 => 8,  47 => 7,  39 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<header class=\"header navbar-area position-sticky mb-3\">
-        <div class=\"container-fluid\" style=\"padding: 0;\">
-            <div class=\"row align-items-center\">
-                <div class=\"col-lg-12\">
-                    <nav class=\"navbar navbar-expand-lg pt-1 pb-1\" style=\"background-color: #EE8126; padding: 1em; color:#666666;\">
-                        <a class=\"navbar-brand\" href=\"{{ url('/') }}\">
-                            <img src=\"{{ 'assets/img/logo/BdMlogo.png' | theme }}\" alt=\"Logo\">
-                        </a>
-                        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\"
+    <div class=\"container-fluid\" style=\"padding: 0;\">
+        <div class=\"row align-items-center\">
+            <div class=\"col-lg-12\">
+                <nav class=\"navbar navbar-expand-lg pt-1 pb-1\"
+                    style=\"background-color: #EE8126; padding: 1em; color:#666666;\">
+                    <a class=\"navbar-brand\" href=\"{{ url('/') }}\">
+                        <img src=\"{{ 'assets/img/logo/BdMlogo.png' | theme }}\" alt=\"Logo\">
+                    </a>
+                    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\"
                         data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\"
                         aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                         <span class=\"toggler-icon\"></span>
@@ -178,12 +204,13 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"{{ url('/') }}\">Accueil</a>
                             </li>
-                
+
                             <li class=\"nav-item dropdown\">
                                 <!--<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Infos
                                 </a>-->
-                                <a class=\"nav-link\" href=\"/Presque_BdM\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                                <a class=\"nav-link\" href=\"/Presque_BdM\" id=\"navbarDropdown\" role=\"button\"
+                                    data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Le Presque BdM
                                 </a>
                                 <!--<ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
@@ -198,12 +225,29 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 <a class=\"page-scroll\" href=\"{{ url('/service') }}\">Inscription</a>
                             </li>-->
 
+                            <li class=\"nav-item dropdown\">
+                                <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\"
+                                    role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                                    Inscriptions
+                                </a>
+                                <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
+                                    <li><a class=\"dropdown-item\" href=\"{{ url('/inscription_scaff') }}\">SCAFF</a></li>
+                                    <li>
+                                        <hr class=\"dropdown-divider\">
+                                    </li>
+                                    <li><a class=\"dropdown-item\"
+                                            href=\"{{ url('/inscription_benevoles') }}\">Bénévoles</a></li>
+                                </ul>
+                            </li>
+
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"{{ url('/gallery') }}\">Galerie</a>
                             </li>
 
-                              <li class=\"nav-item dropdown\">
-                                <a class=\"nav-link dropdown-toggle\" href=\"{{ url('/contact') }}\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                            <li class=\"nav-item dropdown\">
+                                <a class=\"nav-link dropdown-toggle\" href=\"{{ url('/contact') }}\"
+                                    id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
+                                    aria-expanded=\"false\">
                                     Contacts
                                 </a>
                                 <!--
@@ -211,9 +255,9 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                   <li><a class=\"dropdown-item\" href=\"{{ url('/contact') }}\">Nous contacter</a></li>
                                   <li><hr class=\"dropdown-divider\"></li>
                                   <li><a class=\"dropdown-item\" href=\"{{ url('/404') }}\">Partenaires</a></li>
-                                </ul>
-                              </li>
-                            -->
+                                </ul>-->
+                            </li>
+
 
                         </ul>
 
@@ -234,8 +278,8 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("theme" => 7, "page" => 61);
-        static $functions = array("url" => 6);
+        static $filters = array("theme" => 8, "page" => 80);
+        static $functions = array("url" => 7);
 
         try {
             $this->sandbox->checkSecurity(

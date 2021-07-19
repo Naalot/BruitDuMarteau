@@ -1,14 +1,22 @@
-1626680914a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:4328:"[viewBag]
+1626723545a:1:{s:10:"header.htm";a:7:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:5475:"[viewBag]
+
+[searchInput]
+useAutoComplete = 1
+autoCompleteResultCount = 5
+showProviderBadge = 1
+searchPage = "recherche.htm"
+
 ==
 <header class="header navbar-area position-sticky mb-3">
-        <div class="container-fluid" style="padding: 0;">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg pt-1 pb-1" style="background-color: #EE8126; padding: 1em; color:#666666;">
-                        <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="{{ 'assets/img/logo/BdMlogo.png' | theme }}" alt="Logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+    <div class="container-fluid" style="padding: 0;">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg pt-1 pb-1"
+                    style="background-color: #EE8126; padding: 1em; color:#666666;">
+                    <a class="navbar-brand" href="{{ url('/') }}">
+                        <img src="{{ 'assets/img/logo/BdMlogo.png' | theme }}" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="toggler-icon"></span>
@@ -21,12 +29,13 @@
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/') }}">Accueil</a>
                             </li>
-                
+
                             <li class="nav-item dropdown">
                                 <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Infos
                                 </a>-->
-                                <a class="nav-link" href="/Presque_BdM" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link" href="/Presque_BdM" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Le Presque BdM
                                 </a>
                                 <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,12 +50,29 @@
                                 <a class="page-scroll" href="{{ url('/service') }}">Inscription</a>
                             </li>-->
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Inscriptions
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="{{ url('/inscription_scaff') }}">SCAFF</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="{{ url('/inscription_benevoles') }}">Bénévoles</a></li>
+                                </ul>
+                            </li>
+
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/gallery') }}">Galerie</a>
                             </li>
 
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="{{ url('/contact') }}" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="{{ url('/contact') }}"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     Contacts
                                 </a>
                                 <!--
@@ -54,9 +80,9 @@
                                   <li><a class="dropdown-item" href="{{ url('/contact') }}">Nous contacter</a></li>
                                   <li><hr class="dropdown-divider"></li>
                                   <li><a class="dropdown-item" href="{{ url('/404') }}">Partenaires</a></li>
-                                </ul>
-                              </li>
-                            -->
+                                </ul>-->
+                            </li>
+
 
                         </ul>
 
@@ -71,15 +97,16 @@
         </div> <!-- row -->
     </div> <!-- container -->
 
-</header>";s:5:"mtime";i:1626376466;s:6:"markup";s:4313:"<header class="header navbar-area position-sticky mb-3">
-        <div class="container-fluid" style="padding: 0;">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg pt-1 pb-1" style="background-color: #EE8126; padding: 1em; color:#666666;">
-                        <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="{{ 'assets/img/logo/BdMlogo.png' | theme }}" alt="Logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+</header>";s:5:"mtime";i:1626722334;s:6:"markup";s:5338:"<header class="header navbar-area position-sticky mb-3">
+    <div class="container-fluid" style="padding: 0;">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg pt-1 pb-1"
+                    style="background-color: #EE8126; padding: 1em; color:#666666;">
+                    <a class="navbar-brand" href="{{ url('/') }}">
+                        <img src="{{ 'assets/img/logo/BdMlogo.png' | theme }}" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="toggler-icon"></span>
@@ -92,12 +119,13 @@
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/') }}">Accueil</a>
                             </li>
-                
+
                             <li class="nav-item dropdown">
                                 <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Infos
                                 </a>-->
-                                <a class="nav-link" href="/Presque_BdM" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link" href="/Presque_BdM" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Le Presque BdM
                                 </a>
                                 <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -112,12 +140,29 @@
                                 <a class="page-scroll" href="{{ url('/service') }}">Inscription</a>
                             </li>-->
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Inscriptions
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="{{ url('/inscription_scaff') }}">SCAFF</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="{{ url('/inscription_benevoles') }}">Bénévoles</a></li>
+                                </ul>
+                            </li>
+
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/gallery') }}">Galerie</a>
                             </li>
 
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="{{ url('/contact') }}" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="{{ url('/contact') }}"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     Contacts
                                 </a>
                                 <!--
@@ -125,9 +170,9 @@
                                   <li><a class="dropdown-item" href="{{ url('/contact') }}">Nous contacter</a></li>
                                   <li><hr class="dropdown-divider"></li>
                                   <li><a class="dropdown-item" href="{{ url('/404') }}">Partenaires</a></li>
-                                </ul>
-                              </li>
-                            -->
+                                </ul>-->
+                            </li>
+
 
                         </ul>
 
@@ -142,4 +187,4 @@
         </div> <!-- row -->
     </div> <!-- container -->
 
-</header>";s:4:"code";N;s:7:"viewBag";a:0:{}}}
+</header>";s:4:"code";N;s:7:"viewBag";a:0:{}s:11:"searchInput";a:4:{s:15:"useAutoComplete";s:1:"1";s:23:"autoCompleteResultCount";s:1:"5";s:17:"showProviderBadge";s:1:"1";s:10:"searchPage";s:13:"recherche.htm";}}}

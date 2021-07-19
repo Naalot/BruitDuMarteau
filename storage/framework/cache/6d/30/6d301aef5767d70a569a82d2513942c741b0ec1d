@@ -1,0 +1,56 @@
+1626723545a:1:{s:21:"inscription_scaff.htm";a:9:{s:8:"fileName";s:21:"inscription_scaff.htm";s:7:"content";s:935:"title = "Inscription SCAFF"
+url = "/inscription_scaff"
+layout = "default"
+is_hidden = 0
+==
+{% partial 'header' %}
+
+{% component 'siteSearchInclude' %}
+
+<!-- =========================  ========================= -->
+
+
+<div class="container container-fluid text-center">
+    <h3 class="mb-4">Inscription SCAFF</h3>
+    <div>
+        <hr />
+        <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"
+            class="border rounded mw-100 mt-2">
+    </div>
+    <div>
+        <iframe class="container-fluid vh-100 mt-2"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSc_W4TnYAnIyeF41ottY57HcOZaFj9W4lWN2sAqiGZ8ACftYQ/viewform?embedded=true"
+            width=auto frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    </div>
+</div>
+{% partial 'service' %}
+
+
+<!-- =========================  ========================= -->
+
+{% partial 'footer' %}";s:5:"mtime";i:1626720731;s:6:"markup";s:839:"{% partial 'header' %}
+
+{% component 'siteSearchInclude' %}
+
+<!-- =========================  ========================= -->
+
+
+<div class="container container-fluid text-center">
+    <h3 class="mb-4">Inscription SCAFF</h3>
+    <div>
+        <hr />
+        <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"
+            class="border rounded mw-100 mt-2">
+    </div>
+    <div>
+        <iframe class="container-fluid vh-100 mt-2"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSc_W4TnYAnIyeF41ottY57HcOZaFj9W4lWN2sAqiGZ8ACftYQ/viewform?embedded=true"
+            width=auto frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    </div>
+</div>
+{% partial 'service' %}
+
+
+<!-- =========================  ========================= -->
+
+{% partial 'footer' %}";s:4:"code";N;s:5:"title";s:17:"Inscription SCAFF";s:3:"url";s:18:"/inscription_scaff";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

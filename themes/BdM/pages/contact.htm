@@ -7,13 +7,14 @@ is_hidden = 0
 messages_success = "Votre formulaire a été envoyé avec succès"
 messages_errors = "Il y a eu des erreurs dans votre formulaire"
 mail_recipients[] = "laurent_bureau@gmx.fr"
+reset_form = 1
 inline_errors = "disabled"
 sanitize_data = "htmlspecialchars"
 anonymize_ip = "disabled"
-recaptcha_enabled = 0
+recaptcha_enabled = 1
 recaptcha_theme = "light"
 recaptcha_type = "image"
-recaptcha_size = "normal"
+recaptcha_size = "compact"
 emails_date_format = "d-m-Y"
 ==
 {% partial 'header' %}
@@ -129,9 +130,9 @@ emails_date_format = "d-m-Y"
                     </div>-->
                 </div>
             </div>
-            
+            <!--
             {% component 'genericForm' %}
-
+-->
         </div>
     </div>
 </section>
