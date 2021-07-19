@@ -2,8 +2,23 @@ title = "Contact"
 url = "/contact"
 layout = "default"
 is_hidden = 0
+
+[genericForm]
+messages_success = "Votre formulaire a été envoyé avec succès"
+messages_errors = "Il y a eu des erreurs dans votre formulaire"
+mail_recipients[] = "laurent_bureau@gmx.fr"
+inline_errors = "disabled"
+sanitize_data = "htmlspecialchars"
+anonymize_ip = "disabled"
+recaptcha_enabled = 0
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+emails_date_format = "d-m-Y"
 ==
 {% partial 'header' %}
+
+{% component 'siteSearchInclude' %}
 
 <section class="page-banner-section pt-75 pb-75 img-bg"
     style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
@@ -114,52 +129,9 @@ is_hidden = 0
                     </div>-->
                 </div>
             </div>
-            <!--<div class="col-xl-6">
-                <div class="contact-form-wrapper">
-                    <div class="row">
-                        <div class="col-xl-10 col-lg-8 mx-auto">
-                            <div class="section-title text-center mb-50">
-                                <span class="wow fadeInDown" data-wow-delay=".2s">Vous avez une question ?</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".4s">Il suffit de la poser ...</h2>
-                                <p class="wow fadeInUp" data-wow-delay=".6s">Carole, Dudu, Léa ou Mathilde relèvent
-                                    régulièrement les mails et vous répondrons avec grand plaisir.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" class="contact-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" id="name" placeholder="Nom" class="form-control" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" name="email" id="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" name="phone" id="phone" placeholder="Téléphone">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" name="subject" id="email" placeholder="Sujet" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="button text-center">
-                                    <button type="submit" class="theme-btn">Envoyer</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    
-                 
-                </div>
-            </div>-->
+            
+            {% component 'genericForm' %}
+
         </div>
     </div>
 </section>

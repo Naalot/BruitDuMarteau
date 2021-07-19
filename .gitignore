@@ -34,7 +34,6 @@ package-lock.json
 *.log
 *.zip
 
-/storage
 /bootstrap
 /modules
 /config
