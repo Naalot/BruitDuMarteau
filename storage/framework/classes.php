@@ -206,4 +206,7 @@
   'martin\\forms\\Controllers\\exports' => 'plugins\\martin\\forms\\controllers\\exports.php',
   'OFFLINE\\SiteSearch\\Classes\\Result' => 'plugins\\offline\\sitesearch\\classes\\Result.php',
   'bedard\\debugbar\\Plugin' => 'plugins\\bedard\\debugbar\\Plugin.php',
+  'system\\Controllers\\requestlogs' => 'modules\\system\\controllers\\requestlogs.php',
+  'cms\\Controllers\\themelogs' => 'modules\\cms\\controllers\\themelogs.php',
+  'Martin\\Forms\\Classes\\SendMail' => 'plugins\\martin\\forms\\classes\\SendMail.php',
 );

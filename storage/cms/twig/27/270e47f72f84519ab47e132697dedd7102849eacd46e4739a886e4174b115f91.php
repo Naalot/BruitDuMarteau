@@ -160,14 +160,14 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                     </div>-->
                 </div>
             </div>
-            <!--
+            
             ";
         // line 115
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("genericForm"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
         // line 116
-        echo "-->
+        echo "
         </div>
     </div>
 </section>
@@ -370,9 +370,9 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                     </div>-->
                 </div>
             </div>
-            <!--
+            
             {% component 'genericForm' %}
--->
+
         </div>
     </div>
 </section>

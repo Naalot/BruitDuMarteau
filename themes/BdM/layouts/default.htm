@@ -82,12 +82,14 @@
     </a>
 
     <!-- ========================= JS here ========================= -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    {% framework %}
     <script src="{{ 'assets/js/bootstrap.bundle-5.0.0.alpha-min.js'|theme }}"></script>
     <script src="{{ 'assets/js/wow.min.js'|theme }}"></script>
     <script src="{{ 'assets/js/imagesloaded.min.js'|theme }}"></script>
     <script src="{{ 'assets/js/main.js'|theme }}"></script>
+    
     {% scripts %}
-    {% framework %}
-    {% framework extras %}
+    
 </body>
 </html>

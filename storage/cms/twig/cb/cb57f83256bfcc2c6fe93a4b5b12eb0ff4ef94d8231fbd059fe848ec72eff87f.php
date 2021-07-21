@@ -142,45 +142,36 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     </a>
 
     <!-- ========================= JS here ========================= -->
-    <script src=\"";
-        // line 85
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle-5.0.0.alpha-min.js");
-        echo "\"></script>
-    <script src=\"";
-        // line 86
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
-        echo "\"></script>
-    <script src=\"";
-        // line 87
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/imagesloaded.min.js");
-        echo "\"></script>
-    <script src=\"";
-        // line 88
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
-        echo "\"></script>
+    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
     ";
-        // line 89
-        echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
-        echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 90
-        echo "    ";
+        // line 86
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 91
-        echo "    ";
-        $_minify = System\Classes\CombineAssets::instance()->useMinify;
-        if ($_minify) {
-            echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
-        }
-        else {
-            echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-            echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
-        }
-        echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
-        unset($_minify);
+        // line 87
+        echo "    <script src=\"";
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle-5.0.0.alpha-min.js");
+        echo "\"></script>
+    <script src=\"";
+        // line 88
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
+        echo "\"></script>
+    <script src=\"";
+        // line 89
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/imagesloaded.min.js");
+        echo "\"></script>
+    <script src=\"";
+        // line 90
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
+        echo "\"></script>
+    
+    ";
         // line 92
-        echo "</body>
+        echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
+        echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
+        // line 93
+        echo "    
+</body>
 </html>";
     }
 
@@ -196,7 +187,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     public function getDebugInfo()
     {
-        return array (  183 => 92,  171 => 91,  166 => 90,  163 => 89,  159 => 88,  155 => 87,  151 => 86,  147 => 85,  138 => 78,  136 => 77,  112 => 55,  109 => 54,  105 => 53,  101 => 52,  97 => 51,  93 => 50,  89 => 49,  39 => 1,);
+        return array (  173 => 93,  170 => 92,  165 => 90,  161 => 89,  157 => 88,  152 => 87,  148 => 86,  138 => 78,  136 => 77,  112 => 55,  109 => 54,  105 => 53,  101 => 52,  97 => 51,  93 => 50,  89 => 49,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -285,26 +276,28 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     </a>
 
     <!-- ========================= JS here ========================= -->
+    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
+    {% framework %}
     <script src=\"{{ 'assets/js/bootstrap.bundle-5.0.0.alpha-min.js'|theme }}\"></script>
     <script src=\"{{ 'assets/js/wow.min.js'|theme }}\"></script>
     <script src=\"{{ 'assets/js/imagesloaded.min.js'|theme }}\"></script>
     <script src=\"{{ 'assets/js/main.js'|theme }}\"></script>
+    
     {% scripts %}
-    {% framework %}
-    {% framework extras %}
+    
 </body>
 </html>", "D:\\xampp\\htdocs\\bdm_october/themes/BdM/layouts/default.htm", "");
     }
     
     public function checkSecurity()
     {
-        static $tags = array("styles" => 54, "page" => 77, "scripts" => 89, "framework" => 90);
+        static $tags = array("styles" => 54, "page" => 77, "framework" => 86, "scripts" => 92);
         static $filters = array("theme" => 49);
         static $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                ['styles', 'page', 'scripts', 'framework'],
+                ['styles', 'page', 'framework', 'scripts'],
                 ['theme'],
                 []
             );

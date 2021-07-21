@@ -1,4 +1,4 @@
-1626723354a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:8637:"title = "Contact"
+1626861434a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:8671:"title = "Contact"
 url = "/contact"
 layout = "default"
 is_hidden = 0
@@ -6,12 +6,14 @@ is_hidden = 0
 [genericForm]
 messages_success = "Votre formulaire a été envoyé avec succès"
 messages_errors = "Il y a eu des erreurs dans votre formulaire"
+mail_enabled = 1
 mail_recipients[] = "laurent_bureau@gmx.fr"
-reset_form = 1
+mail_resp_enabled = 1
+reset_form = 0
 inline_errors = "disabled"
 sanitize_data = "htmlspecialchars"
 anonymize_ip = "disabled"
-recaptcha_enabled = 1
+recaptcha_enabled = 0
 recaptcha_theme = "light"
 recaptcha_type = "image"
 recaptcha_size = "compact"
@@ -130,9 +132,9 @@ emails_date_format = "d-m-Y"
                     </div>-->
                 </div>
             </div>
-            <!--
+            
             {% component 'genericForm' %}
--->
+
         </div>
     </div>
 </section>
@@ -178,7 +180,7 @@ emails_date_format = "d-m-Y"
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1626722098;s:6:"markup";s:8125:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1626860832;s:6:"markup";s:8118:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
@@ -291,9 +293,9 @@ emails_date_format = "d-m-Y"
                     </div>-->
                 </div>
             </div>
-            <!--
+            
             {% component 'genericForm' %}
--->
+
         </div>
     </div>
 </section>
@@ -339,4 +341,4 @@ emails_date_format = "d-m-Y"
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:4:"code";N;s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"genericForm";a:12:{s:16:"messages_success";s:45:"Votre formulaire a été envoyé avec succès";s:15:"messages_errors";s:43:"Il y a eu des erreurs dans votre formulaire";s:15:"mail_recipients";a:1:{i:0;s:21:"laurent_bureau@gmx.fr";}s:10:"reset_form";s:1:"1";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:16:"htmlspecialchars";s:12:"anonymize_ip";s:8:"disabled";s:17:"recaptcha_enabled";s:1:"1";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:7:"compact";s:18:"emails_date_format";s:5:"d-m-Y";}}}
+{% partial 'footer' %}";s:4:"code";N;s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"genericForm";a:14:{s:16:"messages_success";s:45:"Votre formulaire a été envoyé avec succès";s:15:"messages_errors";s:43:"Il y a eu des erreurs dans votre formulaire";s:12:"mail_enabled";s:1:"1";s:15:"mail_recipients";a:1:{i:0;s:21:"laurent_bureau@gmx.fr";}s:17:"mail_resp_enabled";s:1:"1";s:10:"reset_form";s:1:"0";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:16:"htmlspecialchars";s:12:"anonymize_ip";s:8:"disabled";s:17:"recaptcha_enabled";s:1:"0";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:7:"compact";s:18:"emails_date_format";s:5:"d-m-Y";}}}
