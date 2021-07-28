@@ -1,4 +1,4 @@
-1627462724a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:8671:"title = "Contact"
+1627466756a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:6426:"title = "Contact"
 url = "/contact"
 layout = "default"
 is_hidden = 0
@@ -116,20 +116,6 @@ emails_date_format = "d-m-Y"
                             </div>
                         </div>
                     </div>
-
-                    <!--<div class="col-12 col-md-6 col-xl-12">
-                                    <div class="contact-item">
-                                        <div class="contact-icon">
-                                            <i class="lni lni-alarm-clock"></i>
-                                        </div>
-                                        <div class="contact-content">
-                                            <h4>Shedule</h4>
-                                            <p>24 Hours / 7 Days Open </p>
-                                            <p>Office time: 10 AM - 5:30 PM</p>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>-->
                 </div>
             </div>
             
@@ -152,35 +138,9 @@ emails_date_format = "d-m-Y"
 </section>
 <!-- ========================= map-section end ========================= -->
 
-<!-- ========================= client-logo-section start ========================= 
-        <section class="client-logo-section pt-100 pb-130">
-            <div class="container">
-                <div class="client-logo-wrapper">
-                    <div class="client-logo-carousel d-flex align-items-center justify-content-between">
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/uideck-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/pagebulb-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/graygrids-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-<!-- ========================= client-logo-section end ========================= -->
-
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1626860832;s:6:"markup";s:8118:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1627463038;s:6:"markup";s:5873:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
@@ -277,20 +237,6 @@ emails_date_format = "d-m-Y"
                             </div>
                         </div>
                     </div>
-
-                    <!--<div class="col-12 col-md-6 col-xl-12">
-                                    <div class="contact-item">
-                                        <div class="contact-icon">
-                                            <i class="lni lni-alarm-clock"></i>
-                                        </div>
-                                        <div class="contact-content">
-                                            <h4>Shedule</h4>
-                                            <p>24 Hours / 7 Days Open </p>
-                                            <p>Office time: 10 AM - 5:30 PM</p>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>-->
                 </div>
             </div>
             
@@ -312,32 +258,6 @@ emails_date_format = "d-m-Y"
     </div>
 </section>
 <!-- ========================= map-section end ========================= -->
-
-<!-- ========================= client-logo-section start ========================= 
-        <section class="client-logo-section pt-100 pb-130">
-            <div class="container">
-                <div class="client-logo-wrapper">
-                    <div class="client-logo-carousel d-flex align-items-center justify-content-between">
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/uideck-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/pagebulb-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/graygrids-logo.svg' | theme }}" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-<!-- ========================= client-logo-section end ========================= -->
 
 {% partial 'service' %}
 

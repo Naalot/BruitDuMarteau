@@ -209,4 +209,5 @@
   'system\\Controllers\\requestlogs' => 'modules\\system\\controllers\\requestlogs.php',
   'cms\\Controllers\\themelogs' => 'modules\\cms\\controllers\\themelogs.php',
   'Martin\\Forms\\Classes\\SendMail' => 'plugins\\martin\\forms\\classes\\SendMail.php',
+  'Code200\\eucookielawmadness\\models\\Settings' => 'plugins\\code200\\eucookielawmadness\\models\\Settings.php',
 );
