@@ -107,37 +107,21 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
         // line 56
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css");
         echo "\">
+
     ";
-        // line 57
+        // line 58
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 58
+        // line 59
         echo "
 </head>
 
 <body>
 
-    <!--<div class=\"preloader\">
-        <div class=\"loader\">
-            <div class=\"ytp-spinner\">
-                <div class=\"ytp-spinner-container\">
-                    <div class=\"ytp-spinner-rotator\">
-                        <div class=\"ytp-spinner-left\">
-                            <div class=\"ytp-spinner-circle\"></div>
-                        </div>
-                        <div class=\"ytp-spinner-right\">
-                            <div class=\"ytp-spinner-circle\"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
     ";
-        // line 80
+        // line 64
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 81
+        // line 65
         echo "
 
     <a href=\"#\" class=\"scroll-top\">
@@ -147,33 +131,36 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     <!-- ========================= JS here ========================= -->
     <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"
         integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
+
     ";
-        // line 90
+        // line 75
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 91
-        echo "    <script src=\"";
+        // line 76
+        echo "
+    <script src=\"";
+        // line 77
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle-5.0.0.alpha-min.js");
         echo "\"></script>
     <script src=\"";
-        // line 92
+        // line 78
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 93
+        // line 79
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/imagesloaded.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 94
+        // line 80
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
 
     ";
-        // line 96
+        // line 82
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 97
+        // line 83
         echo "
 </body>
 
@@ -192,7 +179,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     public function getDebugInfo()
     {
-        return array (  177 => 97,  174 => 96,  169 => 94,  165 => 93,  161 => 92,  156 => 91,  152 => 90,  141 => 81,  139 => 80,  115 => 58,  112 => 57,  108 => 56,  104 => 55,  100 => 54,  96 => 53,  92 => 52,  39 => 1,);
+        return array (  164 => 83,  161 => 82,  156 => 80,  152 => 79,  148 => 78,  144 => 77,  141 => 76,  137 => 75,  125 => 65,  123 => 64,  116 => 59,  113 => 58,  108 => 56,  104 => 55,  100 => 54,  96 => 53,  92 => 52,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -253,28 +240,12 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     <link rel=\"stylesheet\" href=\"{{ 'assets/css/animate.css'|theme }}\">
     <link rel=\"stylesheet\" href=\"{{ 'assets/css/main.css'|theme }}\">
     <link rel=\"stylesheet\" href=\"{{ 'assets/css/style.css'|theme }}\">
+
     {% styles %}
 
 </head>
 
 <body>
-
-    <!--<div class=\"preloader\">
-        <div class=\"loader\">
-            <div class=\"ytp-spinner\">
-                <div class=\"ytp-spinner-container\">
-                    <div class=\"ytp-spinner-rotator\">
-                        <div class=\"ytp-spinner-left\">
-                            <div class=\"ytp-spinner-circle\"></div>
-                        </div>
-                        <div class=\"ytp-spinner-right\">
-                            <div class=\"ytp-spinner-circle\"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
 
     {% page %}
 
@@ -286,7 +257,9 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     <!-- ========================= JS here ========================= -->
     <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"
         integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
+
     {% framework %}
+
     <script src=\"{{ 'assets/js/bootstrap.bundle-5.0.0.alpha-min.js'|theme }}\"></script>
     <script src=\"{{ 'assets/js/wow.min.js'|theme }}\"></script>
     <script src=\"{{ 'assets/js/imagesloaded.min.js'|theme }}\"></script>
@@ -301,7 +274,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     
     public function checkSecurity()
     {
-        static $tags = array("styles" => 57, "page" => 80, "framework" => 90, "scripts" => 96);
+        static $tags = array("styles" => 58, "page" => 64, "framework" => 75, "scripts" => 82);
         static $filters = array("theme" => 52);
         static $functions = array();
 

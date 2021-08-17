@@ -1,4 +1,4 @@
-1627466756a:1:{s:26:"inscription_volontaire.htm";a:9:{s:8:"fileName";s:26:"inscription_volontaire.htm";s:7:"content";s:966:"title = "Inscription Bénévoles"
+1629195924a:1:{s:26:"inscription_volontaire.htm";a:9:{s:8:"fileName";s:26:"inscription_volontaire.htm";s:7:"content";s:1010:"title = "Inscription Bénévoles"
 url = "/inscription_benevoles"
 layout = "default"
 is_hidden = 0
@@ -11,7 +11,7 @@ is_hidden = 0
 
 
 <div class="container container-fluid text-center">
-    <h3 class="mb-4">Inscription volontaires et bénévoles</h3>
+    <h3 class="mt-5 mb-4" style="font-size: 2em; color:#EE8126;">Inscription volontaires et bénévoles</h3>
     <div>
         <hr />
         <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"
@@ -28,7 +28,7 @@ is_hidden = 0
 
 <!-- =========================  ========================= -->
 
-{% partial 'footer' %}";s:5:"mtime";i:1626722997;s:6:"markup";s:860:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1629127632;s:6:"markup";s:904:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
@@ -36,7 +36,7 @@ is_hidden = 0
 
 
 <div class="container container-fluid text-center">
-    <h3 class="mb-4">Inscription volontaires et bénévoles</h3>
+    <h3 class="mt-5 mb-4" style="font-size: 2em; color:#EE8126;">Inscription volontaires et bénévoles</h3>
     <div>
         <hr />
         <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"

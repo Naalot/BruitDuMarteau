@@ -4,3 +4,79 @@ layout = "default"
 description = "Page description championnat"
 is_hidden = 0
 ==
+{% partial 'header' %}
+
+{% component 'siteSearchInclude' %}
+
+<div class="container text-center">
+    <h1 class="mb-10 wow fadeInDown" data-wow-delay=".2s" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau
+    </h1>
+</div>
+
+<div class="container">
+    <hr />
+</div>
+
+<div class="container text-center mt-25 mb-10 wow fadeInDown" data-wow-delay=".4s">
+    <p class="mb-0.5">Venez découvrir l’enfer du décor au grand bal des ferrailleux</p>
+    <p>“ Le galva contre la sueur, La matière contre l’esprit, Les muscles contre la connerie, La gravité contre
+        l’humour… ”</p>
+    <p style="font-weight: bolder;">Ne ratez pas le premier championnat de monteurs d'échafaudage.</p>
+</div>
+
+<div class="container mt-10 mb-40">
+    <div class="row align-items-center">
+        <div class="col-xl-5 col-lg-6">
+            <div class="text-center">
+                <h2 class="mb-10 wow fadeInDown" data-wow-delay=".2s" style="font-size: 1.5em; color:#EE8126;">Le Bruit
+                    du Marteau</h2>
+                <h3 class="mb-10 wow fadeInDown" data-wow-delay=".2s" style="font-size: 1.5em;">Le Championnat</h3>
+                <hr />
+                <p class="mb-0.5 wow fadeInDown" data-wow-delay=".4s">Le stade de la salle des fêtes se transforme en
+                    terrain de jeu pour tous les monteurs et techniciens. </p>
+                <p class="mb-2 wow fadeInDown" data-wow-delay=".4s" style="font-weight: bolder;">Un seul mot d’ordre :
+                    Valoriser les hommes, les compétences et les structures, en sécurité.</p>
+                <p class="mb-2 wow fadeInDown" data-wow-delay=".4s">Fair-play, échange, reconnaissance et écoute sont
+                    les valeurs sur lesquelles est construit ce championnat.</p>
+                <p class="mb-0.5 wow fadeInDown" data-wow-delay=".4s">En collaboration avec des professionnels du
+                    métiers nous avons mis au point 5 épreuves originales :</p>
+                <p class="mb-3 wow fadeInDown" data-wow-delay=".4s">Le lac des Scaffs, ballet pour une moise ; l'Arche
+                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le poteaux rose.</p>
+                <a href="{{ url('/inscription_scaff') }}" class="mb-4 wow fadeInDown theme-btn"
+                    data-wow-delay=".4s">Inscription concurrents</a>
+                <p class="mb-3 wow fadeInDown" data-wow-delay=".4s" style="font-weight: bolder;">Bénévole sans vous on
+                    le fait pas !</p>
+                <a href="{{ url('/inscription_benevoles') }}" class="mb-3 wow fadeInDown theme-btn"
+                    data-wow-delay=".4s">Inscription volontaires</a>
+            </div>
+        </div>
+        <div class="col-xl-7 col-lg-6">
+            <div class="text-center">
+                <div class="d-inline-block pt-5">
+                    <img class="border border-dark border-4" src="{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}" alt="" class="wow fadeInRight"
+                        data-wow-delay=".5s" style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center mt-25 mb-10 wow fadeInDown" data-wow-delay=".4s">
+    <p class="mb-0.5">Les épreuves opposent les équipes de monteurs. En abordant toutes les notions du montage
+        d’échafaudage, ces épreuves sont techniques mais restent ludiques. Le jury est composé de professionnels du
+        domaine.
+        Ils notent chaque équipe sur divers critères : respect du travail en sécurité, performance, chrono, travail
+        d’équipe, créativité.</p>
+    <p class="mb-0.5" style="font-weight: bolder;">Un objectif : Donner le meilleur de soi et remporter le « Darak d’or
+        » !</p>
+    <p class="mb-0.5">Le Bruit du Marteau s’adresse également à un public non initié, et aux familles et amis des
+        monteurs. Venez comprendre un métier, découvrir une discipline particulière ou tout simplement profiter d’un
+        moment festif autour de la musique et de l'événement sportif.
+        Des jeux et animations autour de la ferraille pour petits et grands vous accueilleront tout au long de la
+        journée ainsi que toute l’équipe du Snack/Bar de la Coupelle qui seront là pour vous restaurer et vous
+        déssoiffer !</p>
+</div>
+
+{% partial 'service' %}
+
+{% partial 'footer' %}

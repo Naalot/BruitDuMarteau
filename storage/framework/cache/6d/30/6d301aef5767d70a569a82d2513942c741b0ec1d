@@ -1,4 +1,4 @@
-1627466756a:1:{s:21:"inscription_scaff.htm";a:9:{s:8:"fileName";s:21:"inscription_scaff.htm";s:7:"content";s:935:"title = "Inscription SCAFF"
+1629195924a:1:{s:21:"inscription_scaff.htm";a:9:{s:8:"fileName";s:21:"inscription_scaff.htm";s:7:"content";s:979:"title = "Inscription SCAFF"
 url = "/inscription_scaff"
 layout = "default"
 is_hidden = 0
@@ -11,7 +11,7 @@ is_hidden = 0
 
 
 <div class="container container-fluid text-center">
-    <h3 class="mb-4">Inscription SCAFF</h3>
+    <h3 class="mt-5 mb-4" style="font-size: 2em; color:#EE8126;">Inscription SCAFF</h3>
     <div>
         <hr />
         <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"
@@ -28,7 +28,7 @@ is_hidden = 0
 
 <!-- =========================  ========================= -->
 
-{% partial 'footer' %}";s:5:"mtime";i:1626720731;s:6:"markup";s:839:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1629127657;s:6:"markup";s:883:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
@@ -36,7 +36,7 @@ is_hidden = 0
 
 
 <div class="container container-fluid text-center">
-    <h3 class="mb-4">Inscription SCAFF</h3>
+    <h3 class="mt-5 mb-4" style="font-size: 2em; color:#EE8126;">Inscription SCAFF</h3>
     <div>
         <hr />
         <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"

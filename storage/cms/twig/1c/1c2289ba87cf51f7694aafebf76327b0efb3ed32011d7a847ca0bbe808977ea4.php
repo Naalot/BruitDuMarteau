@@ -63,40 +63,49 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
         echo "\">Accueil</a>
                         </li>
                         <li>
-                            <a href=\"javascript:void(0)\">À propos</a>
+                            <a href=\"";
+        // line 22
+        echo url("/gallery");
+        echo "\">Gallerie</a>
                         </li>
                         <li>
-                            <a href=\"javascript:void(0)\">Inscription</a>
+                            <a href=\"";
+        // line 25
+        echo url("/contact");
+        echo "\">Nous contacter</a>
                         </li>
                         <li>
                             <a href=\"";
         // line 28
-        echo url("/contact");
-        echo "\">Nous contacter</a>
+        echo url("/mentions_legales");
+        echo "\">Mentions légales</a>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
-                <div class=\"footer-widget mb-60 wow fadeInUp\" data-wow-delay=\".6s\">
-                    <h4>Service</h4>
-                    <ul class=\"footer-links\">
-                        <li>
-                            <a href=\"javascript:void(0)\">Marketing</a>
-                        </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Branding</a>
-                        </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Web Design</a>
-                        </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Graphics Design</a>
-                        </li> 
+
                     </ul>
                 </div>
             </div>
             <div class=\"col-xl-3 col-lg-3 col-md-6\">
+                <div class=\"footer-widget mb-60 wow fadeInUp\" data-wow-delay=\".6s\">
+                    <h4>Activités</h4>
+                    <ul class=\"footer-links\">
+
+                        <li>
+                            <a href=\"";
+        // line 40
+        echo url("/Presque_BdM");
+        echo "\">Le Presque BdM</a>
+                        </li>
+                        <li>
+                            <a href=\"";
+        // line 43
+        echo url("/championnat");
+        echo "\">Championnat</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInRight\" data-wow-delay=\".8s\">
                     <h4>Contact</h4>
                     <ul class=\"footer-contact\">
@@ -155,7 +164,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
 
     public function getDebugInfo()
     {
-        return array (  74 => 28,  62 => 19,  46 => 6,  39 => 1,);
+        return array (  101 => 43,  95 => 40,  80 => 28,  74 => 25,  68 => 22,  62 => 19,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -181,37 +190,34 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <a href=\"{{ url('/') }}\">Accueil</a>
                         </li>
                         <li>
-                            <a href=\"javascript:void(0)\">À propos</a>
-                        </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Inscription</a>
+                            <a href=\"{{ url('/gallery') }}\">Gallerie</a>
                         </li>
                         <li>
                             <a href=\"{{ url('/contact') }}\">Nous contacter</a>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
-                <div class=\"footer-widget mb-60 wow fadeInUp\" data-wow-delay=\".6s\">
-                    <h4>Service</h4>
-                    <ul class=\"footer-links\">
                         <li>
-                            <a href=\"javascript:void(0)\">Marketing</a>
+                            <a href=\"{{ url('/mentions_legales') }}\">Mentions légales</a>
                         </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Branding</a>
-                        </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Web Design</a>
-                        </li>
-                        <li>
-                            <a href=\"javascript:void(0)\">Graphics Design</a>
-                        </li> 
+
                     </ul>
                 </div>
             </div>
             <div class=\"col-xl-3 col-lg-3 col-md-6\">
+                <div class=\"footer-widget mb-60 wow fadeInUp\" data-wow-delay=\".6s\">
+                    <h4>Activités</h4>
+                    <ul class=\"footer-links\">
+
+                        <li>
+                            <a href=\"{{ url('/Presque_BdM') }}\">Le Presque BdM</a>
+                        </li>
+                        <li>
+                            <a href=\"{{ url('/championnat') }}\">Championnat</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInRight\" data-wow-delay=\".8s\">
                     <h4>Contact</h4>
                     <ul class=\"footer-contact\">

@@ -210,4 +210,9 @@
   'cms\\Controllers\\themelogs' => 'modules\\cms\\controllers\\themelogs.php',
   'Martin\\Forms\\Classes\\SendMail' => 'plugins\\martin\\forms\\classes\\SendMail.php',
   'Code200\\eucookielawmadness\\models\\Settings' => 'plugins\\code200\\eucookielawmadness\\models\\Settings.php',
+  'rainlab\\googleanalytics\\Plugin' => 'plugins\\rainlab\\googleanalytics\\Plugin.php',
+  'RainLab\\GoogleAnalytics\\Models\\Settings' => 'plugins\\rainlab\\googleanalytics\\models\\Settings.php',
+  'RainLab\\GoogleAnalytics\\Components\\Tracker' => 'plugins\\rainlab\\googleanalytics\\components\\Tracker.php',
+  'system\\Controllers\\mailbrandsettings' => 'modules\\system\\controllers\\mailbrandsettings.php',
+  'system\\Controllers\\mailtemplates' => 'modules\\system\\controllers\\mailtemplates.php',
 );
