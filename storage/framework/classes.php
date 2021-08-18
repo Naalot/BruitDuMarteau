@@ -215,4 +215,5 @@
   'RainLab\\GoogleAnalytics\\Components\\Tracker' => 'plugins\\rainlab\\googleanalytics\\components\\Tracker.php',
   'system\\Controllers\\mailbrandsettings' => 'modules\\system\\controllers\\mailbrandsettings.php',
   'system\\Controllers\\mailtemplates' => 'modules\\system\\controllers\\mailtemplates.php',
+  'Martin\\Forms\\Classes\\GDPR' => 'plugins\\martin\\forms\\classes\\GDPR.php',
 );

@@ -48,7 +48,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
         unset($context['__cms_component_params']);
         // line 4
         echo "
-<section class=\"page-banner-section pt-75 pb-75 img-bg\"
+<!--<section class=\"page-banner-section pt-35 pb-35 img-bg\"
     style=\"background-image: url('";
         // line 6
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/bg/common-bg.svg");
@@ -70,8 +70,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= page-banner-section end ========================= -->
+</section>-->
 
 <!-- ========================= contact-section start ========================= -->
 <section class=\"contact-section pt-130\">
@@ -81,7 +80,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                 <div class=\"contact-item-wrapper\">
                     <div class=\"row\">
 
-                        <div class=\"col-12 col-md-6 col-xl-12\">
+                       <!-- <div class=\"col-12 col-md-6 col-xl-12\">
                             <div class=\"contact-item\">
                                 <div class=\"contact-icon\">
                                     <i class=\"lni lni-envelope\"></i>
@@ -91,7 +90,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                                     <p><a href=\"mailto:lebruitdumarteau@gmail.com\">lebruitdumarteau@gmail.com</a></p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
 
                     <div class=\"col-12 col-md-6 col-xl-12\">
@@ -111,7 +110,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                                         <li>- Carole : Régie générale
                                         <li>06 61 10 80 24</li>
                                         </li>
-                                        <li>- Matthieu : Dir. technique
+                                        <li>- Matthieu : Technique
                                         <li>06 62 05 55 95</li>
                                         </li>
                                         <li>- Claude : Trésorière
@@ -146,13 +145,13 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                     </div>
                 </div>
             </div>
-            
+
             ";
-        // line 101
+        // line 100
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("genericForm"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 102
+        // line 101
         echo "
         </div>
     </div>
@@ -164,7 +163,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 <section class=\"map-section\">
     <div class=\"map-container m-3\">
         <iframe
-            src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.3934106702686!2d5.293148315834531!3d45.56252673489765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b2ecf74a11a07%3A0x66ae1095d698a0a5!2sVers%20Ruffieu%2C%2038300%20Meyri%C3%A9!5e0!3m2!1sfr!2sfr!4v1624358355947!5m2!1sfr!2sfr\"
+            src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.4481256559357!2d5.292300715560727!3d45.56142627910232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae887ce8a6c8b1bf!2sLe%20Bruit%20du%20Marteau!5e0!3m2!1sfr!2sfr!4v1629269553021!5m2!1sfr!2sfr\"
             width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>
     </div>
     </div>
@@ -172,14 +171,14 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 <!-- ========================= map-section end ========================= -->
 
 ";
-        // line 120
+        // line 119
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("service"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 121
+        // line 120
         echo "
 ";
-        // line 122
+        // line 121
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -197,7 +196,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 
     public function getDebugInfo()
     {
-        return array (  183 => 122,  180 => 121,  176 => 120,  156 => 102,  152 => 101,  54 => 6,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
+        return array (  182 => 121,  179 => 120,  175 => 119,  155 => 101,  151 => 100,  54 => 6,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -206,7 +205,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 
 {% component 'siteSearchInclude' %}
 
-<section class=\"page-banner-section pt-75 pb-75 img-bg\"
+<!--<section class=\"page-banner-section pt-35 pb-35 img-bg\"
     style=\"background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')\">
     <div class=\"container\">
         <div class=\"row\">
@@ -225,8 +224,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= page-banner-section end ========================= -->
+</section>-->
 
 <!-- ========================= contact-section start ========================= -->
 <section class=\"contact-section pt-130\">
@@ -236,7 +234,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                 <div class=\"contact-item-wrapper\">
                     <div class=\"row\">
 
-                        <div class=\"col-12 col-md-6 col-xl-12\">
+                       <!-- <div class=\"col-12 col-md-6 col-xl-12\">
                             <div class=\"contact-item\">
                                 <div class=\"contact-icon\">
                                     <i class=\"lni lni-envelope\"></i>
@@ -246,7 +244,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                                     <p><a href=\"mailto:lebruitdumarteau@gmail.com\">lebruitdumarteau@gmail.com</a></p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
 
                     <div class=\"col-12 col-md-6 col-xl-12\">
@@ -266,7 +264,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                                         <li>- Carole : Régie générale
                                         <li>06 61 10 80 24</li>
                                         </li>
-                                        <li>- Matthieu : Dir. technique
+                                        <li>- Matthieu : Technique
                                         <li>06 62 05 55 95</li>
                                         </li>
                                         <li>- Claude : Trésorière
@@ -301,7 +299,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
                     </div>
                 </div>
             </div>
-            
+
             {% component 'genericForm' %}
 
         </div>
@@ -314,7 +312,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 <section class=\"map-section\">
     <div class=\"map-container m-3\">
         <iframe
-            src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.3934106702686!2d5.293148315834531!3d45.56252673489765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b2ecf74a11a07%3A0x66ae1095d698a0a5!2sVers%20Ruffieu%2C%2038300%20Meyri%C3%A9!5e0!3m2!1sfr!2sfr!4v1624358355947!5m2!1sfr!2sfr\"
+            src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.4481256559357!2d5.292300715560727!3d45.56142627910232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae887ce8a6c8b1bf!2sLe%20Bruit%20du%20Marteau!5e0!3m2!1sfr!2sfr!4v1629269553021!5m2!1sfr!2sfr\"
             width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>
     </div>
     </div>

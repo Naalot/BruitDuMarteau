@@ -43,15 +43,15 @@ searchPage = "recherche.htm"
                                   <li><hr class="dropdown-divider"></li>-->
 
                             </ul>
-                            
+
                             <li class="nav-item dropdown"><a class="page-scroll"
                                     href="{{ url('/championnat') }}">Championnat</a></li>
 
-                            <!--<li class="nav-item">
-                                <a class="page-scroll" href="{{ url('/service') }}">Inscription</a>
-                            </li>-->
+                            <li class="nav-item">
+                                <a class="page-scroll" href="{{ url('/inscription') }}">Inscription</a>
+                            </li>
 
-                            <li class="nav-item dropdown">
+                            <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Inscriptions
@@ -64,14 +64,19 @@ searchPage = "recherche.htm"
                                     <li><a class="dropdown-item"
                                             href="{{ url('/inscription_benevoles') }}">Bénévoles</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
 
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/gallery') }}">Galerie</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="{{ url('/contact') }}"
+                                <!--<a class="nav-link dropdown-toggle" href="{{ url('/contact') }}"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Contacts
+                                </a>-->
+                                <a class="nav-link" href="{{ url('/contact') }}"
                                     id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Contacts
@@ -92,10 +97,10 @@ searchPage = "recherche.htm"
                             <button type="submit"><i class="lni lni-search-alt"></i></button>
                         </form>
 
-                    </div> <!-- navbar collapse -->
-                </nav> <!-- navbar -->
+                    </div>
+                </nav>
             </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
+        </div>
+    </div>
 
 </header>

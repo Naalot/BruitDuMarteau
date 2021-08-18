@@ -2053,10 +2053,10 @@ p {
     padding: 18px 90px; }
 
 .page-banner-section {
-  margin-top: 107px; }
+  margin-top: 1em; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .page-banner-section {
-      margin-top: 94px; } }
+      margin-top: 1em; } }
   .page-banner-section .banner-content h2 {
     margin-bottom: 20px; }
   .page-banner-section .banner-content .page-breadcrumb nav ol {

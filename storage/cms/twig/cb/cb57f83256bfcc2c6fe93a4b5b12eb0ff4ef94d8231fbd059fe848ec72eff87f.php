@@ -42,6 +42,11 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    ";
+        // line 7
+        if (call_user_func_array($this->env->getFunction('allow_cookies')->getCallable(), [])) {
+            // line 8
+            echo "
     <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-179282164-1\"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -53,7 +58,11 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
         gtag('config', 'UA-179282164-1');
     </script>
-
+    
+    ";
+        }
+        // line 22
+        echo "
     <!-- Meta -->
     <meta charset=\"utf-8\">
     <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">
@@ -88,40 +97,40 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     <!-- ========================= CSS here ========================= -->
     <link rel=\"stylesheet\" href=\"";
-        // line 52
+        // line 56
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/bootstrap-5.0.0-alpha.min.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 53
+        // line 57
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/LineIcons.2.0.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 54
+        // line 58
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/animate.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 55
+        // line 59
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/main.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 56
+        // line 60
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css");
         echo "\">
 
     ";
-        // line 58
+        // line 62
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 59
+        // line 63
         echo "
 </head>
 
 <body>
 
     ";
-        // line 64
+        // line 68
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 65
+        // line 69
         echo "
 
     <a href=\"#\" class=\"scroll-top\">
@@ -133,34 +142,34 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
         integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
 
     ";
-        // line 75
+        // line 79
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 76
+        // line 80
         echo "
     <script src=\"";
-        // line 77
+        // line 81
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle-5.0.0.alpha-min.js");
         echo "\"></script>
     <script src=\"";
-        // line 78
+        // line 82
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 79
+        // line 83
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/imagesloaded.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 80
+        // line 84
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
 
     ";
-        // line 82
+        // line 86
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 83
+        // line 87
         echo "
 </body>
 
@@ -179,7 +188,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     public function getDebugInfo()
     {
-        return array (  164 => 83,  161 => 82,  156 => 80,  152 => 79,  148 => 78,  144 => 77,  141 => 76,  137 => 75,  125 => 65,  123 => 64,  116 => 59,  113 => 58,  108 => 56,  104 => 55,  100 => 54,  96 => 53,  92 => 52,  39 => 1,);
+        return array (  173 => 87,  170 => 86,  165 => 84,  161 => 83,  157 => 82,  153 => 81,  150 => 80,  146 => 79,  134 => 69,  132 => 68,  125 => 63,  122 => 62,  117 => 60,  113 => 59,  109 => 58,  105 => 57,  101 => 56,  65 => 22,  49 => 8,  47 => 7,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -190,6 +199,8 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    {% if allow_cookies()  %}
+
     <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-179282164-1\"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -201,6 +212,8 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
         gtag('config', 'UA-179282164-1');
     </script>
+    
+    {% endif %}
 
     <!-- Meta -->
     <meta charset=\"utf-8\">
@@ -274,15 +287,15 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     
     public function checkSecurity()
     {
-        static $tags = array("styles" => 58, "page" => 64, "framework" => 75, "scripts" => 82);
-        static $filters = array("theme" => 52);
-        static $functions = array();
+        static $tags = array("if" => 7, "styles" => 62, "page" => 68, "framework" => 79, "scripts" => 86);
+        static $filters = array("theme" => 56);
+        static $functions = array("allow_cookies" => 7);
 
         try {
             $this->sandbox->checkSecurity(
-                ['styles', 'page', 'framework', 'scripts'],
+                ['if', 'styles', 'page', 'framework', 'scripts'],
                 ['theme'],
-                []
+                ['allow_cookies']
             );
         } catch (SecurityError $e) {
             $e->setSourceContext($this->source);

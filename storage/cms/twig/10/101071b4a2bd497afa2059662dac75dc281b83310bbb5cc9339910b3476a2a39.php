@@ -87,21 +87,21 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                   <li><hr class=\"dropdown-divider\"></li>-->
 
                             </ul>
-                            
+
                             <li class=\"nav-item dropdown\"><a class=\"page-scroll\"
                                     href=\"";
         // line 39
         echo url("/championnat");
         echo "\">Championnat</a></li>
 
-                            <!--<li class=\"nav-item\">
+                            <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
         // line 42
-        echo url("/service");
+        echo url("/inscription");
         echo "\">Inscription</a>
-                            </li>-->
+                            </li>
 
-                            <li class=\"nav-item dropdown\">
+                            <!--<li class=\"nav-item dropdown\">
                                 <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\"
                                     data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Inscriptions
@@ -120,7 +120,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
         echo url("/inscription_benevoles");
         echo "\">Bénévoles</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
@@ -130,8 +130,16 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                             </li>
 
                             <li class=\"nav-item dropdown\">
-                                <a class=\"nav-link dropdown-toggle\" href=\"";
+                                <!--<a class=\"nav-link dropdown-toggle\" href=\"";
         // line 65
+        echo url("/contact");
+        echo "\"
+                                    id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
+                                    aria-expanded=\"false\">
+                                    Contacts
+                                </a>-->
+                                <a class=\"nav-link\" href=\"";
+        // line 70
         echo url("/contact");
         echo "\"
                                     id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
@@ -141,12 +149,12 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 <!--
                                 <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 72
+        // line 77
         echo url("/contact");
         echo "\">Nous contacter</a></li>
                                   <li><hr class=\"dropdown-divider\"></li>
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 74
+        // line 79
         echo url("/404");
         echo "\">Partenaires</a></li>
                                 </ul>-->
@@ -156,18 +164,18 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                         </ul>
 
                         <form action=\"";
-        // line 81
+        // line 86
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("recherche");
         echo "\" method=\"get\" class=\"search-form\">
                             <input name=\"q\" type=\"text\" placeholder=\"Recherche\" autocomplete=\"off\">
                             <button type=\"submit\"><i class=\"lni lni-search-alt\"></i></button>
                         </form>
 
-                    </div> <!-- navbar collapse -->
-                </nav> <!-- navbar -->
+                    </div>
+                </nav>
             </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
+        </div>
+    </div>
 
 </header>";
     }
@@ -184,7 +192,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
     public function getDebugInfo()
     {
-        return array (  160 => 81,  150 => 74,  145 => 72,  135 => 65,  128 => 61,  120 => 56,  112 => 51,  100 => 42,  94 => 39,  85 => 33,  77 => 28,  67 => 21,  51 => 8,  47 => 7,  39 => 1,);
+        return array (  168 => 86,  158 => 79,  153 => 77,  143 => 70,  135 => 65,  128 => 61,  120 => 56,  112 => 51,  100 => 42,  94 => 39,  85 => 33,  77 => 28,  67 => 21,  51 => 8,  47 => 7,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -225,15 +233,15 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                   <li><hr class=\"dropdown-divider\"></li>-->
 
                             </ul>
-                            
+
                             <li class=\"nav-item dropdown\"><a class=\"page-scroll\"
                                     href=\"{{ url('/championnat') }}\">Championnat</a></li>
 
-                            <!--<li class=\"nav-item\">
-                                <a class=\"page-scroll\" href=\"{{ url('/service') }}\">Inscription</a>
-                            </li>-->
+                            <li class=\"nav-item\">
+                                <a class=\"page-scroll\" href=\"{{ url('/inscription') }}\">Inscription</a>
+                            </li>
 
-                            <li class=\"nav-item dropdown\">
+                            <!--<li class=\"nav-item dropdown\">
                                 <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\"
                                     data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Inscriptions
@@ -246,14 +254,19 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     <li><a class=\"dropdown-item\"
                                             href=\"{{ url('/inscription_benevoles') }}\">Bénévoles</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"{{ url('/gallery') }}\">Galerie</a>
                             </li>
 
                             <li class=\"nav-item dropdown\">
-                                <a class=\"nav-link dropdown-toggle\" href=\"{{ url('/contact') }}\"
+                                <!--<a class=\"nav-link dropdown-toggle\" href=\"{{ url('/contact') }}\"
+                                    id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
+                                    aria-expanded=\"false\">
+                                    Contacts
+                                </a>-->
+                                <a class=\"nav-link\" href=\"{{ url('/contact') }}\"
                                     id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
                                     aria-expanded=\"false\">
                                     Contacts
@@ -274,11 +287,11 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                             <button type=\"submit\"><i class=\"lni lni-search-alt\"></i></button>
                         </form>
 
-                    </div> <!-- navbar collapse -->
-                </nav> <!-- navbar -->
+                    </div>
+                </nav>
             </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
+        </div>
+    </div>
 
 </header>", "D:\\xampp\\htdocs\\bdm_october/themes/BdM/partials/header.htm", "");
     }
@@ -286,7 +299,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("theme" => 8, "page" => 81);
+        static $filters = array("theme" => 8, "page" => 86);
         static $functions = array("url" => 7);
 
         try {

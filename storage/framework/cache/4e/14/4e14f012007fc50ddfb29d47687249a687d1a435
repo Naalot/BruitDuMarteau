@@ -1,10 +1,12 @@
-1629195924a:1:{s:7:"404.htm";a:9:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:2587:"title = 404
+1629290332a:1:{s:7:"404.htm";a:9:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1487:"title = 404
 url = "/404"
 layout = "default"
 is_hidden = 0
 ==
+
 {% partial 'header' %}
-<section class="page-banner-section pt-75 pb-75 img-bg" style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
+
+<!--<section class="page-banner-section pt-35 pb-35 img-bg" style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -22,7 +24,7 @@ is_hidden = 0
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="page-404-section pt-130 pb-130">
     <div class="container">
@@ -38,31 +40,9 @@ is_hidden = 0
     </div>
 </section>
 
-<!--<section class="client-logo-section pt-100 pb-130">
-    <div class="container">
-        <div class="client-logo-wrapper">
-            <div class="client-logo-carousel d-flex align-items-center justify-content-between">
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/uideck-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/pagebulb-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/graygrids-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-{% partial 'footer' %}";s:5:"mtime";i:1624793308;s:6:"markup";s:2521:"{% partial 'header' %}
-<section class="page-banner-section pt-75 pb-75 img-bg" style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
+{% partial 'footer' %}";s:5:"mtime";i:1629272413;s:6:"markup";s:1419:"{% partial 'header' %}
+
+<!--<section class="page-banner-section pt-35 pb-35 img-bg" style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -80,7 +60,7 @@ is_hidden = 0
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="page-404-section pt-130 pb-130">
     <div class="container">
@@ -96,27 +76,4 @@ is_hidden = 0
     </div>
 </section>
 
-<!--<section class="client-logo-section pt-100 pb-130">
-    <div class="container">
-        <div class="client-logo-wrapper">
-            <div class="client-logo-carousel d-flex align-items-center justify-content-between">
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/uideck-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/pagebulb-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/graygrids-logo.svg' | theme }}" alt="">
-                </div>
-                <div class="client-logo">
-                    <img src="{{ 'assets/img/client-logo/lineicons-logo.svg' | theme }}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
 {% partial 'footer' %}";s:4:"code";N;s:5:"title";s:3:"404";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

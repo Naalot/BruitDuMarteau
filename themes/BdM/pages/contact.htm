@@ -7,18 +7,18 @@ is_hidden = 0
 messages_success = "Votre formulaire a été envoyé avec succès"
 messages_errors = "Il y a eu des erreurs dans votre formulaire"
 mail_enabled = 1
-mail_recipients[] = "laurent_bureau@gmx.fr"
+mail_recipients[] = "lebruitdumarteau@gmail.com"
 mail_replyto = "email"
 mail_template = "martin.forms::mail.notification"
 mail_resp_enabled = 1
 mail_resp_field = "email"
-mail_resp_from = "laurent_bureau@gmx.fr"
+mail_resp_from = "lebruitdumarteau@gmail.com"
 mail_resp_subject = "Accusé de réception"
 mail_resp_template = "martin.forms::mail.autoresponse"
 reset_form = 1
 inline_errors = "disabled"
 sanitize_data = "htmlspecialchars"
-anonymize_ip = "disabled"
+anonymize_ip = "partial"
 recaptcha_enabled = 1
 recaptcha_theme = "light"
 recaptcha_type = "image"
@@ -29,7 +29,7 @@ emails_date_format = "d-m-Y"
 
 {% component 'siteSearchInclude' %}
 
-<section class="page-banner-section pt-75 pb-75 img-bg"
+<!--<section class="page-banner-section pt-35 pb-35 img-bg"
     style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
     <div class="container">
         <div class="row">
@@ -48,8 +48,7 @@ emails_date_format = "d-m-Y"
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= page-banner-section end ========================= -->
+</section>-->
 
 <!-- ========================= contact-section start ========================= -->
 <section class="contact-section pt-130">
@@ -59,7 +58,7 @@ emails_date_format = "d-m-Y"
                 <div class="contact-item-wrapper">
                     <div class="row">
 
-                        <div class="col-12 col-md-6 col-xl-12">
+                       <!-- <div class="col-12 col-md-6 col-xl-12">
                             <div class="contact-item">
                                 <div class="contact-icon">
                                     <i class="lni lni-envelope"></i>
@@ -69,7 +68,7 @@ emails_date_format = "d-m-Y"
                                     <p><a href="mailto:lebruitdumarteau@gmail.com">lebruitdumarteau@gmail.com</a></p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
 
                     <div class="col-12 col-md-6 col-xl-12">
@@ -89,7 +88,7 @@ emails_date_format = "d-m-Y"
                                         <li>- Carole : Régie générale
                                         <li>06 61 10 80 24</li>
                                         </li>
-                                        <li>- Matthieu : Dir. technique
+                                        <li>- Matthieu : Technique
                                         <li>06 62 05 55 95</li>
                                         </li>
                                         <li>- Claude : Trésorière
@@ -124,7 +123,7 @@ emails_date_format = "d-m-Y"
                     </div>
                 </div>
             </div>
-            
+
             {% component 'genericForm' %}
 
         </div>
@@ -137,7 +136,7 @@ emails_date_format = "d-m-Y"
 <section class="map-section">
     <div class="map-container m-3">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.3934106702686!2d5.293148315834531!3d45.56252673489765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b2ecf74a11a07%3A0x66ae1095d698a0a5!2sVers%20Ruffieu%2C%2038300%20Meyri%C3%A9!5e0!3m2!1sfr!2sfr!4v1624358355947!5m2!1sfr!2sfr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.4481256559357!2d5.292300715560727!3d45.56142627910232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae887ce8a6c8b1bf!2sLe%20Bruit%20du%20Marteau!5e0!3m2!1sfr!2sfr!4v1629269553021!5m2!1sfr!2sfr"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     </div>

@@ -1,9 +1,11 @@
-1629195924a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3306:"<!doctype html>
+1629290332a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3362:"<!doctype html>
 <html class="no-js" lang="fr">
 
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    {% if allow_cookies()  %}
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179282164-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -15,6 +17,8 @@
 
         gtag('config', 'UA-179282164-1');
     </script>
+    
+    {% endif %}
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -83,12 +87,14 @@
 
 </body>
 
-</html>";s:5:"mtime";i:1628685932;s:6:"markup";s:3306:"<!doctype html>
+</html>";s:5:"mtime";i:1629274784;s:6:"markup";s:3362:"<!doctype html>
 <html class="no-js" lang="fr">
 
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    {% if allow_cookies()  %}
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179282164-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -100,6 +106,8 @@
 
         gtag('config', 'UA-179282164-1');
     </script>
+    
+    {% endif %}
 
     <!-- Meta -->
     <meta charset="utf-8">

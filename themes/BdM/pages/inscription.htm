@@ -4,3 +4,18 @@ layout = "default"
 description = "Page principale \"Inscription\""
 is_hidden = 0
 ==
+
+{% partial 'header' %}
+
+{% component 'siteSearchInclude' %}
+
+<div class="container text-center">
+    <h1 class="mb-20 wow fadeInDown" data-wow-delay=".2s" style="font-size: 2em; color:#EE8126;">Inscriptions</h1>
+    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Cette année il n'y aura pas d'inscriptions parceque pas de championnat</p>
+    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pour nous aussi c'est triste !</p>
+    <p class="mb-20 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pas d'inquiétudes, on revient bientôt.</p>
+</div>
+
+{% partial 'service' %}
+
+{% partial 'footer' %}

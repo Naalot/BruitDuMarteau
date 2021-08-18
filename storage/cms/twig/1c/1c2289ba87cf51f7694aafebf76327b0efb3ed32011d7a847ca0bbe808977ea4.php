@@ -66,7 +66,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <a href=\"";
         // line 22
         echo url("/gallery");
-        echo "\">Gallerie</a>
+        echo "\">Galerie</a>
                         </li>
                         <li>
                             <a href=\"";
@@ -101,28 +101,38 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
         echo url("/championnat");
         echo "\">Championnat</a>
                         </li>
+                        <li>
+                            <a href=\"";
+        // line 46
+        echo url("/404");
+        echo "\">Inscription</a>
+                        </li>
                         
                     </ul>
                 </div>
             </div>
+
             <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInRight\" data-wow-delay=\".8s\">
                     <h4>Contact</h4>
                     <ul class=\"footer-contact\">
                         <li>
-                            <p>+00983467367234</p>
+                            <p>+336 77 45 81 00</p>
                         </li>
                         <li>
-                            <a href=\"mailto:lebruitdumarteau@gmail.com\">lebruitdumarteau@gmail.com</a>
+                            <a href=\"";
+        // line 61
+        echo url("/contact");
+        echo "\">lebruitdumarteau@gmail.com</a>
                         </li>
                         <li>
-                            <p>United State Of America
-                            *12 Street House</p>
+                            <p>Mairie de Meyrié, Place de l'église,
+                                38300 Meyrié</p>
                         </li>
                     </ul>
                 </div>
-            </div>-->
-        </div>
+            </div>
+        </div>-->
 
         <div class=\"copyright-area\">
             <div class=\"row align-items-center\">
@@ -135,7 +145,10 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <!--<li><a href=\"javascript:void(0)\"><i class=\"lni lni-linkedin-original\"></i></a></li>-->
                             <li><a href=\"https://www.instagram.com/s.c.a.f.f/\"><i
                                         class=\"lni lni-instagram-filled\"></i></a></li>
-                            <li><a href=\"mailto:lebruitdumarteau@gmail.com\"><i class=\"lni lni-envelope\"></i></a></li>
+                            <li><a href=\"";
+        // line 83
+        echo url("/contact");
+        echo "\"><i class=\"lni lni-envelope\"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -164,7 +177,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
 
     public function getDebugInfo()
     {
-        return array (  101 => 43,  95 => 40,  80 => 28,  74 => 25,  68 => 22,  62 => 19,  46 => 6,  39 => 1,);
+        return array (  150 => 83,  125 => 61,  107 => 46,  101 => 43,  95 => 40,  80 => 28,  74 => 25,  68 => 22,  62 => 19,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -190,7 +203,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <a href=\"{{ url('/') }}\">Accueil</a>
                         </li>
                         <li>
-                            <a href=\"{{ url('/gallery') }}\">Gallerie</a>
+                            <a href=\"{{ url('/gallery') }}\">Galerie</a>
                         </li>
                         <li>
                             <a href=\"{{ url('/contact') }}\">Nous contacter</a>
@@ -213,28 +226,32 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                         <li>
                             <a href=\"{{ url('/championnat') }}\">Championnat</a>
                         </li>
+                        <li>
+                            <a href=\"{{ url('/404') }}\">Inscription</a>
+                        </li>
                         
                     </ul>
                 </div>
             </div>
+
             <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInRight\" data-wow-delay=\".8s\">
                     <h4>Contact</h4>
                     <ul class=\"footer-contact\">
                         <li>
-                            <p>+00983467367234</p>
+                            <p>+336 77 45 81 00</p>
                         </li>
                         <li>
-                            <a href=\"mailto:lebruitdumarteau@gmail.com\">lebruitdumarteau@gmail.com</a>
+                            <a href=\"{{ url('/contact') }}\">lebruitdumarteau@gmail.com</a>
                         </li>
                         <li>
-                            <p>United State Of America
-                            *12 Street House</p>
+                            <p>Mairie de Meyrié, Place de l'église,
+                                38300 Meyrié</p>
                         </li>
                     </ul>
                 </div>
-            </div>-->
-        </div>
+            </div>
+        </div>-->
 
         <div class=\"copyright-area\">
             <div class=\"row align-items-center\">
@@ -247,7 +264,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <!--<li><a href=\"javascript:void(0)\"><i class=\"lni lni-linkedin-original\"></i></a></li>-->
                             <li><a href=\"https://www.instagram.com/s.c.a.f.f/\"><i
                                         class=\"lni lni-instagram-filled\"></i></a></li>
-                            <li><a href=\"mailto:lebruitdumarteau@gmail.com\"><i class=\"lni lni-envelope\"></i></a></li>
+                            <li><a href=\"{{ url('/contact') }}\"><i class=\"lni lni-envelope\"></i></a></li>
                         </ul>
                     </div>
                 </div>
