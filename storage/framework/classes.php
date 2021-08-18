@@ -216,4 +216,9 @@
   'system\\Controllers\\mailbrandsettings' => 'modules\\system\\controllers\\mailbrandsettings.php',
   'system\\Controllers\\mailtemplates' => 'modules\\system\\controllers\\mailtemplates.php',
   'Martin\\Forms\\Classes\\GDPR' => 'plugins\\martin\\forms\\classes\\GDPR.php',
+  'rainlab\\sitemap\\Plugin' => 'plugins\\rainlab\\sitemap\\Plugin.php',
+  'rainlab\\sitemap\\Controllers\\definitions' => 'plugins\\rainlab\\sitemap\\controllers\\definitions.php',
+  'RainLab\\Sitemap\\Models\\Definition' => 'plugins\\rainlab\\sitemap\\models\\Definition.php',
+  'RainLab\\Sitemap\\Classes\\DefinitionItem' => 'plugins\\rainlab\\sitemap\\classes\\DefinitionItem.php',
+  'RainLab\\Sitemap\\FormWidgets\\SitemapItems' => 'plugins\\rainlab\\sitemap\\formwidgets\\SitemapItems.php',
 );
