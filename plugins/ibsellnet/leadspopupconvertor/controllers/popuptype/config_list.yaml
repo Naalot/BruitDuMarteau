@@ -1,0 +1,11 @@
+list: $/ibsellnet/leadspopupconvertor/models/popuptype/columns.yaml
+modelClass: Ibsellnet\Leadspopupconvertor\Models\Popuptype
+title: Popuptype
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: false
+showCheckboxes: false
+recordsPerPage: 20
+toolbar:
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ibsellnet/leadspopupconvertor/popuptype'

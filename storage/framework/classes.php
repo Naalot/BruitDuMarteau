@@ -221,4 +221,7 @@
   'RainLab\\Sitemap\\Models\\Definition' => 'plugins\\rainlab\\sitemap\\models\\Definition.php',
   'RainLab\\Sitemap\\Classes\\DefinitionItem' => 'plugins\\rainlab\\sitemap\\classes\\DefinitionItem.php',
   'RainLab\\Sitemap\\FormWidgets\\SitemapItems' => 'plugins\\rainlab\\sitemap\\formwidgets\\SitemapItems.php',
+  'ibsellnet\\leadspopupconvertor\\Plugin' => 'plugins\\ibsellnet\\leadspopupconvertor\\Plugin.php',
+  'Ibsellnet\\Leadspopupconvertor\\Models\\Popuptype' => 'plugins\\ibsellnet\\leadspopupconvertor\\models\\Popuptype.php',
+  'Ibsellnet\\Leadspopupconvertor\\Models\\Popups' => 'plugins\\ibsellnet\\leadspopupconvertor\\models\\Popups.php',
 );
