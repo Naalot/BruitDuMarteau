@@ -224,4 +224,7 @@
   'ibsellnet\\leadspopupconvertor\\Plugin' => 'plugins\\ibsellnet\\leadspopupconvertor\\Plugin.php',
   'Ibsellnet\\Leadspopupconvertor\\Models\\Popuptype' => 'plugins\\ibsellnet\\leadspopupconvertor\\models\\Popuptype.php',
   'Ibsellnet\\Leadspopupconvertor\\Models\\Popups' => 'plugins\\ibsellnet\\leadspopupconvertor\\models\\Popups.php',
+  'ibsellnet\\leadspopupconvertor\\Controllers\\popups' => 'plugins\\ibsellnet\\leadspopupconvertor\\controllers\\popups.php',
+  'ibsellnet\\leadspopupconvertor\\Controllers\\popuptype' => 'plugins\\ibsellnet\\leadspopupconvertor\\controllers\\popuptype.php',
+  'Ibsellnet\\Leadspopupconvertor\\Components\\Popupconvertor' => 'plugins\\ibsellnet\\leadspopupconvertor\\components\\Popupconvertor.php',
 );
