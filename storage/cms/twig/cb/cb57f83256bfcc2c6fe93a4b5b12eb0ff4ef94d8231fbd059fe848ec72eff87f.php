@@ -145,38 +145,37 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
         // line 76
         echo "
     <!-- ========================= JS here ========================= -->
-    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"
-        integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
+<script src=\"https://code.jquery.com/jquery-3.6.0.js\" integrity=\"sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\" crossorigin=\"anonymous\"></script>
 
     ";
-        // line 81
+        // line 80
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 82
+        // line 81
         echo "
     <script src=\"";
-        // line 83
+        // line 82
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle-5.0.0.alpha-min.js");
         echo "\"></script>
     <script src=\"";
-        // line 84
+        // line 83
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 85
+        // line 84
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/imagesloaded.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 86
+        // line 85
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
 
     ";
-        // line 88
+        // line 87
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 89
+        // line 88
         echo "
 </body>
 
@@ -195,7 +194,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     public function getDebugInfo()
     {
-        return array (  180 => 89,  177 => 88,  172 => 86,  168 => 85,  164 => 84,  160 => 83,  157 => 82,  153 => 81,  146 => 76,  142 => 75,  134 => 69,  132 => 68,  125 => 63,  122 => 62,  117 => 60,  113 => 59,  109 => 58,  105 => 57,  101 => 56,  65 => 22,  49 => 8,  47 => 7,  39 => 1,);
+        return array (  179 => 88,  176 => 87,  171 => 85,  167 => 84,  163 => 83,  159 => 82,  156 => 81,  152 => 80,  146 => 76,  142 => 75,  134 => 69,  132 => 68,  125 => 63,  122 => 62,  117 => 60,  113 => 59,  109 => 58,  105 => 57,  101 => 56,  65 => 22,  49 => 8,  47 => 7,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -277,8 +276,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     {% component 'Popupconvertor' %}
 
     <!-- ========================= JS here ========================= -->
-    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"
-        integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>
+<script src=\"https://code.jquery.com/jquery-3.6.0.js\" integrity=\"sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\" crossorigin=\"anonymous\"></script>
 
     {% framework %}
 
@@ -296,7 +294,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     
     public function checkSecurity()
     {
-        static $tags = array("if" => 7, "styles" => 62, "page" => 68, "component" => 75, "framework" => 81, "scripts" => 88);
+        static $tags = array("if" => 7, "styles" => 62, "page" => 68, "component" => 75, "framework" => 80, "scripts" => 87);
         static $filters = array("theme" => 56);
         static $functions = array("allow_cookies" => 7);
 

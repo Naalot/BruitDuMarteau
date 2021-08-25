@@ -1,4 +1,4 @@
-1629902375a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3441:"[Popupconvertor]
+1629912596a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3424:"[Popupconvertor]
 idpopup = 2
 ==
 <!doctype html>
@@ -78,8 +78,7 @@ idpopup = 2
     {% component 'Popupconvertor' %}
 
     <!-- ========================= JS here ========================= -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     {% framework %}
 
@@ -92,7 +91,7 @@ idpopup = 2
 
 </body>
 
-</html>";s:5:"mtime";i:1629879144;s:6:"markup";s:3406:"<!doctype html>
+</html>";s:5:"mtime";i:1629902624;s:6:"markup";s:3389:"<!doctype html>
 <html class="no-js" lang="fr">
 
 <head>
@@ -169,8 +168,7 @@ idpopup = 2
     {% component 'Popupconvertor' %}
 
     <!-- ========================= JS here ========================= -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     {% framework %}
 
