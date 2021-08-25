@@ -1,4 +1,4 @@
-1629912596a:1:{s:10:"header.htm";a:7:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:5697:"[viewBag]
+1629916341a:1:{s:10:"header.htm";a:7:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:5373:"[viewBag]
 
 [searchInput]
 useAutoComplete = 1
@@ -37,12 +37,8 @@ searchPage = "recherche.htm"
                                 <a class="nav-link" href="{{ url('/Presque_BdM') }}" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Le Presque BdM
-                                </a></li>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <!--<li><a class="dropdown-item" href="{{ url('/about') }}">À propos</a></li>
-                                  <li><hr class="dropdown-divider"></li>-->
-
-                            </ul>
+                                </a>
+                            </li>
 
                             <li class="nav-item dropdown"><a class="page-scroll"
                                     href="{{ url('/championnat') }}">Championnat</a></li>
@@ -76,9 +72,8 @@ searchPage = "recherche.htm"
                                     aria-expanded="false">
                                     Contacts
                                 </a>-->
-                                <a class="nav-link" href="{{ url('/contact') }}"
-                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link" href="{{ url('/contact') }}" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Contacts
                                 </a>
                                 <!--
@@ -88,7 +83,6 @@ searchPage = "recherche.htm"
                                   <li><a class="dropdown-item" href="{{ url('/404') }}">Partenaires</a></li>
                                 </ul>-->
                             </li>
-
 
                         </ul>
 
@@ -103,7 +97,7 @@ searchPage = "recherche.htm"
         </div>
     </div>
 
-</header>";s:5:"mtime";i:1629278198;s:6:"markup";s:5560:"<header class="header navbar-area position-sticky mb-3">
+</header>";s:5:"mtime";i:1629915724;s:6:"markup";s:5236:"<header class="header navbar-area position-sticky mb-3">
     <div class="container-fluid" style="padding: 0;">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -133,12 +127,8 @@ searchPage = "recherche.htm"
                                 <a class="nav-link" href="{{ url('/Presque_BdM') }}" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Le Presque BdM
-                                </a></li>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <!--<li><a class="dropdown-item" href="{{ url('/about') }}">À propos</a></li>
-                                  <li><hr class="dropdown-divider"></li>-->
-
-                            </ul>
+                                </a>
+                            </li>
 
                             <li class="nav-item dropdown"><a class="page-scroll"
                                     href="{{ url('/championnat') }}">Championnat</a></li>
@@ -172,9 +162,8 @@ searchPage = "recherche.htm"
                                     aria-expanded="false">
                                     Contacts
                                 </a>-->
-                                <a class="nav-link" href="{{ url('/contact') }}"
-                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link" href="{{ url('/contact') }}" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Contacts
                                 </a>
                                 <!--
@@ -184,7 +173,6 @@ searchPage = "recherche.htm"
                                   <li><a class="dropdown-item" href="{{ url('/404') }}">Partenaires</a></li>
                                 </ul>-->
                             </li>
-
 
                         </ul>
 

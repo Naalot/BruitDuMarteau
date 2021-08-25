@@ -78,25 +78,18 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
         echo "\" id=\"navbarDropdown\" role=\"button\"
                                     data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Le Presque BdM
-                                </a></li>
-                            <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                                <!--<li><a class=\"dropdown-item\" href=\"";
-        // line 33
-        echo url("/about");
-        echo "\">À propos</a></li>
-                                  <li><hr class=\"dropdown-divider\"></li>-->
-
-                            </ul>
+                                </a>
+                            </li>
 
                             <li class=\"nav-item dropdown\"><a class=\"page-scroll\"
                                     href=\"";
-        // line 39
+        // line 35
         echo url("/championnat");
         echo "\">Championnat</a></li>
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 42
+        // line 38
         echo url("/inscription");
         echo "\">Inscription</a>
                             </li>
@@ -108,7 +101,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 </a>
                                 <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                     <li><a class=\"dropdown-item\" href=\"";
-        // line 51
+        // line 47
         echo url("/inscription_scaff");
         echo "\">SCAFF</a></li>
                                     <li>
@@ -116,7 +109,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     </li>
                                     <li><a class=\"dropdown-item\"
                                             href=\"";
-        // line 56
+        // line 52
         echo url("/inscription_benevoles");
         echo "\">Bénévoles</a></li>
                                 </ul>
@@ -124,14 +117,14 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 61
+        // line 57
         echo url("/gallery");
         echo "\">Galerie</a>
                             </li>
 
                             <li class=\"nav-item dropdown\">
                                 <!--<a class=\"nav-link dropdown-toggle\" href=\"";
-        // line 65
+        // line 61
         echo url("/contact");
         echo "\"
                                     id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
@@ -139,32 +132,30 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     Contacts
                                 </a>-->
                                 <a class=\"nav-link\" href=\"";
-        // line 70
+        // line 66
         echo url("/contact");
-        echo "\"
-                                    id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
-                                    aria-expanded=\"false\">
+        echo "\" id=\"navbarDropdownMenuLink\"
+                                    role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Contacts
                                 </a>
                                 <!--
                                 <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 77
+        // line 72
         echo url("/contact");
         echo "\">Nous contacter</a></li>
                                   <li><hr class=\"dropdown-divider\"></li>
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 79
+        // line 74
         echo url("/404");
         echo "\">Partenaires</a></li>
                                 </ul>-->
                             </li>
 
-
                         </ul>
 
                         <form action=\"";
-        // line 86
+        // line 80
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("recherche");
         echo "\" method=\"get\" class=\"search-form\">
                             <input name=\"q\" type=\"text\" placeholder=\"Recherche\" autocomplete=\"off\">
@@ -192,7 +183,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
     public function getDebugInfo()
     {
-        return array (  168 => 86,  158 => 79,  153 => 77,  143 => 70,  135 => 65,  128 => 61,  120 => 56,  112 => 51,  100 => 42,  94 => 39,  85 => 33,  77 => 28,  67 => 21,  51 => 8,  47 => 7,  39 => 1,);
+        return array (  159 => 80,  150 => 74,  145 => 72,  136 => 66,  128 => 61,  121 => 57,  113 => 52,  105 => 47,  93 => 38,  87 => 35,  77 => 28,  67 => 21,  51 => 8,  47 => 7,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -227,12 +218,8 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 <a class=\"nav-link\" href=\"{{ url('/Presque_BdM') }}\" id=\"navbarDropdown\" role=\"button\"
                                     data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Le Presque BdM
-                                </a></li>
-                            <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                                <!--<li><a class=\"dropdown-item\" href=\"{{ url('/about') }}\">À propos</a></li>
-                                  <li><hr class=\"dropdown-divider\"></li>-->
-
-                            </ul>
+                                </a>
+                            </li>
 
                             <li class=\"nav-item dropdown\"><a class=\"page-scroll\"
                                     href=\"{{ url('/championnat') }}\">Championnat</a></li>
@@ -266,9 +253,8 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     aria-expanded=\"false\">
                                     Contacts
                                 </a>-->
-                                <a class=\"nav-link\" href=\"{{ url('/contact') }}\"
-                                    id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
-                                    aria-expanded=\"false\">
+                                <a class=\"nav-link\" href=\"{{ url('/contact') }}\" id=\"navbarDropdownMenuLink\"
+                                    role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                     Contacts
                                 </a>
                                 <!--
@@ -278,7 +264,6 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                   <li><a class=\"dropdown-item\" href=\"{{ url('/404') }}\">Partenaires</a></li>
                                 </ul>-->
                             </li>
-
 
                         </ul>
 
@@ -299,7 +284,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("theme" => 8, "page" => 86);
+        static $filters = array("theme" => 8, "page" => 80);
         static $functions = array("url" => 7);
 
         try {

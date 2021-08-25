@@ -1,4 +1,4 @@
-1629912596a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:6562:"title = "Contact"
+1629916201a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:6561:"title = "Contact"
 url = "/contact"
 layout = "default"
 is_hidden = 0
@@ -57,8 +57,7 @@ emails_date_format = "d-m-Y"
             <div class="col-xl-6">
                 <div class="contact-item-wrapper">
                     <div class="row">
-
-                       <!-- <div class="col-12 col-md-6 col-xl-12">
+                        <!-- <div class="col-12 col-md-6 col-xl-12">
                             <div class="contact-item">
                                 <div class="contact-icon">
                                     <i class="lni lni-envelope"></i>
@@ -145,7 +144,7 @@ emails_date_format = "d-m-Y"
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1629276068;s:6:"markup";s:5755:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1629912758;s:6:"markup";s:5754:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
@@ -177,8 +176,7 @@ emails_date_format = "d-m-Y"
             <div class="col-xl-6">
                 <div class="contact-item-wrapper">
                     <div class="row">
-
-                       <!-- <div class="col-12 col-md-6 col-xl-12">
+                        <!-- <div class="col-12 col-md-6 col-xl-12">
                             <div class="contact-item">
                                 <div class="contact-icon">
                                     <i class="lni lni-envelope"></i>

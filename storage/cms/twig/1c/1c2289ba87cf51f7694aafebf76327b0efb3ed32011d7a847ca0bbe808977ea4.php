@@ -131,8 +131,8 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>-->
+            </div>-->
+        </div>
 
         <div class=\"copyright-area\">
             <div class=\"row align-items-center\">
@@ -250,8 +250,8 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>-->
+            </div>-->
+        </div>
 
         <div class=\"copyright-area\">
             <div class=\"row align-items-center\">
