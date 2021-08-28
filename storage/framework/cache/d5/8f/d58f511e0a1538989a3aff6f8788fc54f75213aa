@@ -1,4 +1,4 @@
-1629916201a:1:{s:11:"Gallery.htm";a:12:{s:8:"fileName";s:11:"Gallery.htm";s:7:"content";s:3923:"title = "Gallery"
+1630182062a:1:{s:11:"Gallery.htm";a:12:{s:8:"fileName";s:11:"Gallery.htm";s:7:"content";s:4014:"title = "Gallery"
 url = "/gallery"
 layout = "default"
 is_hidden = 0
@@ -63,11 +63,14 @@ height = 140
 width = 200
 resizer = "auto"
 ==
+
 {% partial 'header' %}
+
+<!-- ========================= Page Galerie avec plugin ========================= -->
 
 <h3 class="container text-center mb-5" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau #03</h3>
 
-<!-- Edition 02 -->
+<!-- Edition 03 -->
 <div class="wow fadeInRight container col-md-6 col-md-offset-3 col-xs-12">
     <div class="row">
         <figure class="figure container border rounded mb-5 container-fluid mb-5 text-center">
@@ -78,9 +81,9 @@ resizer = "auto"
     </div>
 </div>
 
-<!-- End Edition 02 -->
+<!-- End Edition 03 -->
 
-<!-- Gallery 02-->
+<!-- Gallery 03-->
 
 <div class="wow fadeInLeft container-fluid mb-5 text-center">
     <div class="row ">
@@ -90,7 +93,7 @@ resizer = "auto"
     </div>
 </div>
 
-<!-- End Gallery 02-->
+<!-- End Gallery 03-->
 
 <h3 class="container text-center mb-5" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau #02</h3>
 
@@ -148,11 +151,13 @@ resizer = "auto"
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1626385882;s:6:"markup";s:2889:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1630179901;s:6:"markup";s:2978:"{% partial 'header' %}
+
+<!-- ========================= Page Galerie avec plugin ========================= -->
 
 <h3 class="container text-center mb-5" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau #03</h3>
 
-<!-- Edition 02 -->
+<!-- Edition 03 -->
 <div class="wow fadeInRight container col-md-6 col-md-offset-3 col-xs-12">
     <div class="row">
         <figure class="figure container border rounded mb-5 container-fluid mb-5 text-center">
@@ -163,9 +168,9 @@ resizer = "auto"
     </div>
 </div>
 
-<!-- End Edition 02 -->
+<!-- End Edition 03 -->
 
-<!-- Gallery 02-->
+<!-- Gallery 03-->
 
 <div class="wow fadeInLeft container-fluid mb-5 text-center">
     <div class="row ">
@@ -175,7 +180,7 @@ resizer = "auto"
     </div>
 </div>
 
-<!-- End Gallery 02-->
+<!-- End Gallery 03-->
 
 <h3 class="container text-center mb-5" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau #02</h3>
 

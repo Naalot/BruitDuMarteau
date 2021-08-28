@@ -1,15 +1,16 @@
-1629916201a:1:{s:9:"index.htm";a:9:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:3857:"title = "Index"
+1630182062a:1:{s:9:"index.htm";a:9:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:3825:"title = "Index"
 url = "/"
 layout = "default"
 is_hidden = 0
 ==
+
 {% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
-<!-- ========================= home-div start ========================= -->
+{% partial 'alert-annulation' %}
 
-
+<!-- ========================= Page d'accueil temporaire ========================= -->
 
 <div class="container text-center">
 
@@ -62,6 +63,7 @@ is_hidden = 0
                     partir de 18h</p>
             </div>
         </div>
+
         <div class="col-xl-7 col-lg-6">
             <div class="text-center">
                 <div class="d-inline-block pt-5">
@@ -75,16 +77,13 @@ is_hidden = 0
 
 {% partial 'service' %}
 
-
-<!-- ========================= home-div end ========================= -->
-
-{% partial 'footer' %}";s:5:"mtime";i:1629912717;s:6:"markup";s:3790:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1630180038;s:6:"markup";s:3756:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
-<!-- ========================= home-div start ========================= -->
+{% partial 'alert-annulation' %}
 
-
+<!-- ========================= Page d'accueil temporaire ========================= -->
 
 <div class="container text-center">
 
@@ -137,6 +136,7 @@ is_hidden = 0
                     partir de 18h</p>
             </div>
         </div>
+
         <div class="col-xl-7 col-lg-6">
             <div class="text-center">
                 <div class="d-inline-block pt-5">
@@ -149,8 +149,5 @@ is_hidden = 0
 </div>
 
 {% partial 'service' %}
-
-
-<!-- ========================= home-div end ========================= -->
 
 {% partial 'footer' %}";s:4:"code";N;s:5:"title";s:5:"Index";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

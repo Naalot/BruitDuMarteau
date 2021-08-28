@@ -29,6 +29,10 @@ emails_date_format = "d-m-Y"
 
 {% component 'siteSearchInclude' %}
 
+{% partial 'alert-annulation' %}
+
+<!-- ========================= Page contact + Map (Temporaire) ========================= -->
+
 <!--<section class="page-banner-section pt-35 pb-35 img-bg"
     style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
     <div class="container">
@@ -50,13 +54,17 @@ emails_date_format = "d-m-Y"
     </div>
 </section>-->
 
-<!-- ========================= contact-section start ========================= -->
+<!-- ========================= Section contact ========================= -->
+
 <section class="contact-section pt-130">
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
                 <div class="contact-item-wrapper">
                     <div class="row">
+
+                        <!-- ========================= Ajoute un lien direct e-mail ========================= -->
+
                         <!-- <div class="col-12 col-md-6 col-xl-12">
                             <div class="contact-item">
                                 <div class="contact-icon">
@@ -123,15 +131,16 @@ emails_date_format = "d-m-Y"
                 </div>
             </div>
 
+            <!-- ========================= plugin formulaire de contact ========================= -->
+
             {% component 'genericForm' %}
 
         </div>
     </div>
 </section>
 
-<!-- ========================= contact-section end ========================= -->
+<!-- ========================= Section carte  Google ========================= -->
 
-<!-- ========================= map-section end ========================= -->
 <section class="map-section">
     <div class="map-container m-3">
         <iframe
@@ -140,7 +149,6 @@ emails_date_format = "d-m-Y"
     </div>
     </div>
 </section>
-<!-- ========================= map-section end ========================= -->
 
 {% partial 'service' %}
 

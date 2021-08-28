@@ -36,13 +36,15 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
     {
         $macros = $this->macros;
         // line 1
-        echo "<footer class=\"footer pt-10\">
+        echo "<!-- ========================= Partiel pied de page ========================= -->
+
+<footer class=\"footer pt-10\">
     <div class=\"container\">
         <div class=\"row\">
             <div class=\"col-xl-3 col-lg-4 col-md-6\">
                 <div class=\"footer-widget mb-2 wow fadeInLeft\" data-wow-delay=\".2s\">
                     <a href=\"index.html\" class=\"logo mb-10\"><img src=\"";
-        // line 6
+        // line 8
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo/BdMlogo_white.png");
         echo "\"
                             alt=\"logo\" style=\"max-width: 6em\"></a>
@@ -52,31 +54,32 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                         trouver sa place.</p>
                 </div>
             </div>
+
             <div class=\"col-xl-2 offset-xl-1 col-lg-2 col-md-6\">
                 <div class=\"footer-widget mb-5 wow fadeInUp\" data-wow-delay=\".4s\">
                     <h4>Navigation</h4>
                     <ul class=\"footer-links\">
                         <li>
                             <a href=\"";
-        // line 19
+        // line 22
         echo url("/");
         echo "\">Accueil</a>
                         </li>
                         <li>
                             <a href=\"";
-        // line 22
+        // line 25
         echo url("/gallery");
         echo "\">Galerie</a>
                         </li>
                         <li>
                             <a href=\"";
-        // line 25
+        // line 28
         echo url("/contact");
         echo "\">Nous contacter</a>
                         </li>
                         <li>
                             <a href=\"";
-        // line 28
+        // line 31
         echo url("/mentions_legales");
         echo "\">Mentions légales</a>
                         </li>
@@ -84,6 +87,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                     </ul>
                 </div>
             </div>
+
             <div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInUp\" data-wow-delay=\".6s\">
                     <h4>Activités</h4>
@@ -91,26 +95,28 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
 
                         <li>
                             <a href=\"";
-        // line 40
+        // line 44
         echo url("/Presque_BdM");
         echo "\">Le Presque BdM</a>
                         </li>
                         <li>
                             <a href=\"";
-        // line 43
+        // line 47
         echo url("/championnat");
         echo "\">Championnat</a>
                         </li>
                         <li>
                             <a href=\"";
-        // line 46
-        echo url("/404");
+        // line 50
+        echo url("/inscription");
         echo "\">Inscription</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
+
+            <!-- ========================= Div temporairement désactivée \"adresse + tel\" ========================= -->
 
             <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInRight\" data-wow-delay=\".8s\">
@@ -121,7 +127,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                         </li>
                         <li>
                             <a href=\"";
-        // line 61
+        // line 67
         echo url("/contact");
         echo "\">lebruitdumarteau@gmail.com</a>
                         </li>
@@ -132,6 +138,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                     </ul>
                 </div>
             </div>-->
+
         </div>
 
         <div class=\"copyright-area\">
@@ -146,15 +153,19 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <li><a href=\"https://www.instagram.com/s.c.a.f.f/\"><i
                                         class=\"lni lni-instagram-filled\"></i></a></li>
                             <li><a href=\"";
-        // line 83
+        // line 90
         echo url("/contact");
         echo "\"><i class=\"lni lni-envelope\"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class=\"col-md-6\">
-                    <!--<p class=\"wow fadeInUp\" data-wow-delay=\".3s\">Template Designed by <a
-                        href=\"https://GrayGrids.com\" rel=\"nofollow\">GrayGrids</a></p>-->
+
+<!-- ========================= Lien vers portfolio LB ========================= -->
+
+                    <!--<p class=\"wow fadeInUp\" data-wow-delay=\".3s\">\".\"<a
+                        href=\"#\" rel=\"nofollow\">GrayGrids</a></p>-->
+
                     <p>© <script>
                             new Date().getFullYear() > 2016 && document.write(\" \" + new Date().getFullYear());
                         </script> | Le Bruit du Marteau</p>
@@ -177,12 +188,14 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
 
     public function getDebugInfo()
     {
-        return array (  150 => 83,  125 => 61,  107 => 46,  101 => 43,  95 => 40,  80 => 28,  74 => 25,  68 => 22,  62 => 19,  46 => 6,  39 => 1,);
+        return array (  157 => 90,  131 => 67,  111 => 50,  105 => 47,  99 => 44,  83 => 31,  77 => 28,  71 => 25,  65 => 22,  48 => 8,  39 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<footer class=\"footer pt-10\">
+        return new Source("<!-- ========================= Partiel pied de page ========================= -->
+
+<footer class=\"footer pt-10\">
     <div class=\"container\">
         <div class=\"row\">
             <div class=\"col-xl-3 col-lg-4 col-md-6\">
@@ -195,6 +208,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                         trouver sa place.</p>
                 </div>
             </div>
+
             <div class=\"col-xl-2 offset-xl-1 col-lg-2 col-md-6\">
                 <div class=\"footer-widget mb-5 wow fadeInUp\" data-wow-delay=\".4s\">
                     <h4>Navigation</h4>
@@ -215,6 +229,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                     </ul>
                 </div>
             </div>
+
             <div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInUp\" data-wow-delay=\".6s\">
                     <h4>Activités</h4>
@@ -227,12 +242,14 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                             <a href=\"{{ url('/championnat') }}\">Championnat</a>
                         </li>
                         <li>
-                            <a href=\"{{ url('/404') }}\">Inscription</a>
+                            <a href=\"{{ url('/inscription') }}\">Inscription</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
+
+            <!-- ========================= Div temporairement désactivée \"adresse + tel\" ========================= -->
 
             <!--<div class=\"col-xl-3 col-lg-3 col-md-6\">
                 <div class=\"footer-widget mb-60 wow fadeInRight\" data-wow-delay=\".8s\">
@@ -251,6 +268,7 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                     </ul>
                 </div>
             </div>-->
+
         </div>
 
         <div class=\"copyright-area\">
@@ -269,8 +287,12 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
                     </div>
                 </div>
                 <div class=\"col-md-6\">
-                    <!--<p class=\"wow fadeInUp\" data-wow-delay=\".3s\">Template Designed by <a
-                        href=\"https://GrayGrids.com\" rel=\"nofollow\">GrayGrids</a></p>-->
+
+<!-- ========================= Lien vers portfolio LB ========================= -->
+
+                    <!--<p class=\"wow fadeInUp\" data-wow-delay=\".3s\">\".\"<a
+                        href=\"#\" rel=\"nofollow\">GrayGrids</a></p>-->
+
                     <p>© <script>
                             new Date().getFullYear() > 2016 && document.write(\" \" + new Date().getFullYear());
                         </script> | Le Bruit du Marteau</p>
@@ -284,8 +306,8 @@ class __TwigTemplate_cb773e0005ff87c6863d4dd326c8b0389f937e32945f84e7aa4acc2f0d3
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("theme" => 6);
-        static $functions = array("url" => 19);
+        static $filters = array("theme" => 8);
+        static $functions = array("url" => 22);
 
         try {
             $this->sandbox->checkSecurity(

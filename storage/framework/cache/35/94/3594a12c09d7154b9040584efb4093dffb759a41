@@ -1,12 +1,14 @@
-1629916341a:1:{s:10:"header.htm";a:7:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:5373:"[viewBag]
+1630182062a:1:{s:10:"header.htm";a:7:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:5845:"[viewBag]
 
 [searchInput]
 useAutoComplete = 1
 autoCompleteResultCount = 5
 showProviderBadge = 1
 searchPage = "recherche.htm"
-
 ==
+
+<!-- ========================= Partiel header ========================= -->
+
 <header class="header navbar-area position-sticky mb-3">
     <div class="container-fluid" style="padding: 0;">
         <div class="row align-items-center">
@@ -25,7 +27,9 @@ searchPage = "recherche.htm"
                     </button>
 
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+
                         <ul id="nav" class="navbar-nav ml-auto">
+
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/') }}">Accueil</a>
                             </li>
@@ -47,6 +51,8 @@ searchPage = "recherche.htm"
                                 <a class="page-scroll" href="{{ url('/inscription') }}">Inscription</a>
                             </li>
 
+                            <!-- ========================= Liens vers formulaires d'inscription désactivés ========================= -->
+
                             <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,6 +71,8 @@ searchPage = "recherche.htm"
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/gallery') }}">Galerie</a>
                             </li>
+
+                            <!-- ========================= Ajout futur "Contact" / "Le lieu" / "Partenaires" ========================= -->
 
                             <li class="nav-item dropdown">
                                 <!--<a class="nav-link dropdown-toggle" href="{{ url('/contact') }}"
@@ -86,6 +94,8 @@ searchPage = "recherche.htm"
 
                         </ul>
 
+                        <!-- ========================= Barre de recherche ========================= -->
+
                         <form action="{{ 'recherche' | page }}" method="get" class="search-form">
                             <input name="q" type="text" placeholder="Recherche" autocomplete="off">
                             <button type="submit"><i class="lni lni-search-alt"></i></button>
@@ -96,8 +106,9 @@ searchPage = "recherche.htm"
             </div>
         </div>
     </div>
+</header>";s:5:"mtime";i:1630181237;s:6:"markup";s:5708:"<!-- ========================= Partiel header ========================= -->
 
-</header>";s:5:"mtime";i:1629915724;s:6:"markup";s:5236:"<header class="header navbar-area position-sticky mb-3">
+<header class="header navbar-area position-sticky mb-3">
     <div class="container-fluid" style="padding: 0;">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -115,7 +126,9 @@ searchPage = "recherche.htm"
                     </button>
 
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+
                         <ul id="nav" class="navbar-nav ml-auto">
+
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/') }}">Accueil</a>
                             </li>
@@ -137,6 +150,8 @@ searchPage = "recherche.htm"
                                 <a class="page-scroll" href="{{ url('/inscription') }}">Inscription</a>
                             </li>
 
+                            <!-- ========================= Liens vers formulaires d'inscription désactivés ========================= -->
+
                             <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -155,6 +170,8 @@ searchPage = "recherche.htm"
                             <li class="nav-item">
                                 <a class="page-scroll" href="{{ url('/gallery') }}">Galerie</a>
                             </li>
+
+                            <!-- ========================= Ajout futur "Contact" / "Le lieu" / "Partenaires" ========================= -->
 
                             <li class="nav-item dropdown">
                                 <!--<a class="nav-link dropdown-toggle" href="{{ url('/contact') }}"
@@ -176,6 +193,8 @@ searchPage = "recherche.htm"
 
                         </ul>
 
+                        <!-- ========================= Barre de recherche ========================= -->
+
                         <form action="{{ 'recherche' | page }}" method="get" class="search-form">
                             <input name="q" type="text" placeholder="Recherche" autocomplete="off">
                             <button type="submit"><i class="lni lni-search-alt"></i></button>
@@ -186,5 +205,4 @@ searchPage = "recherche.htm"
             </div>
         </div>
     </div>
-
 </header>";s:4:"code";N;s:7:"viewBag";a:0:{}s:11:"searchInput";a:4:{s:15:"useAutoComplete";s:1:"1";s:23:"autoCompleteResultCount";s:1:"5";s:17:"showProviderBadge";s:1:"1";s:10:"searchPage";s:13:"recherche.htm";}}}

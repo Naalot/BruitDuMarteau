@@ -48,9 +48,16 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
         unset($context['__cms_component_params']);
         // line 4
         echo "
+";
+        // line 5
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("alert-annulation"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 6
+        echo "
 <!--<section class=\"page-banner-section pt-35 pb-35 img-bg\"
     style=\"background-image: url('";
-        // line 6
+        // line 8
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/bg/common-bg.svg");
         echo "')\">
     <div class=\"container\">
@@ -79,8 +86,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
             <div class=\"col-xl-6\">
                 <div class=\"contact-item-wrapper\">
                     <div class=\"row\">
-
-                       <!-- <div class=\"col-12 col-md-6 col-xl-12\">
+                        <!-- <div class=\"col-12 col-md-6 col-xl-12\">
                             <div class=\"contact-item\">
                                 <div class=\"contact-icon\">
                                     <i class=\"lni lni-envelope\"></i>
@@ -147,11 +153,11 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
             </div>
 
             ";
-        // line 100
+        // line 101
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("genericForm"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 101
+        // line 102
         echo "
         </div>
     </div>
@@ -171,14 +177,14 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 <!-- ========================= map-section end ========================= -->
 
 ";
-        // line 119
+        // line 120
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("service"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 120
+        // line 121
         echo "
 ";
-        // line 121
+        // line 122
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -196,7 +202,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
 
     public function getDebugInfo()
     {
-        return array (  182 => 121,  179 => 120,  175 => 119,  155 => 101,  151 => 100,  54 => 6,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
+        return array (  188 => 122,  185 => 121,  181 => 120,  161 => 102,  157 => 101,  61 => 8,  57 => 6,  53 => 5,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -204,6 +210,8 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
         return new Source("{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
+
+{% partial 'alert-annulation' %}
 
 <!--<section class=\"page-banner-section pt-35 pb-35 img-bg\"
     style=\"background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')\">
@@ -233,8 +241,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
             <div class=\"col-xl-6\">
                 <div class=\"contact-item-wrapper\">
                     <div class=\"row\">
-
-                       <!-- <div class=\"col-12 col-md-6 col-xl-12\">
+                        <!-- <div class=\"col-12 col-md-6 col-xl-12\">
                             <div class=\"contact-item\">
                                 <div class=\"contact-icon\">
                                     <i class=\"lni lni-envelope\"></i>
@@ -327,7 +334,7 @@ class __TwigTemplate_f1757c98e249e01695d2b48a931f3be22c3942e0e4daa64743f2d1464b9
     public function checkSecurity()
     {
         static $tags = array("partial" => 1, "component" => 3);
-        static $filters = array("theme" => 6);
+        static $filters = array("theme" => 8);
         static $functions = array();
 
         try {

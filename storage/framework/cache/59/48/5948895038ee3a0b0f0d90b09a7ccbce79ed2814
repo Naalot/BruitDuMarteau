@@ -1,7 +1,9 @@
-1629916201a:1:{s:11:"service.htm";a:5:{s:8:"fileName";s:11:"service.htm";s:7:"content";s:2125:"<div class="container mt-50">
-    <hr/>
+1630182062a:1:{s:11:"service.htm";a:5:{s:8:"fileName";s:11:"service.htm";s:7:"content";s:2039:"<div class="container mt-50">
+    <hr />
 </div>
-<!-- ========================= partner-logo-section start ========================= -->
+
+<!-- ========================= Page logos partenaires ========================= -->
+
 <section class="client-logo-section pt-20 pb-30">
     <div class="container">
         <div class="client-logo-wrapper">
@@ -39,11 +41,12 @@
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= partner-logo-section end ========================= -->";s:5:"mtime";i:1625076339;s:6:"markup";s:2125:"<div class="container mt-50">
-    <hr/>
+</section>";s:5:"mtime";i:1630181319;s:6:"markup";s:2039:"<div class="container mt-50">
+    <hr />
 </div>
-<!-- ========================= partner-logo-section start ========================= -->
+
+<!-- ========================= Page logos partenaires ========================= -->
+
 <section class="client-logo-section pt-20 pb-30">
     <div class="container">
         <div class="client-logo-wrapper">
@@ -81,5 +84,4 @@
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= partner-logo-section end ========================= -->";s:4:"code";N;}}
+</section>";s:4:"code";N;}}

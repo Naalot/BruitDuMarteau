@@ -1,6 +1,9 @@
-1629916201a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3578:"[Popupconvertor]
+1630182062a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3698:"[Popupconvertor]
 idpopup = 2
 ==
+
+                            <!-- ========================= Vue principale ========================= -->
+
 <!doctype html>
 <html class="no-js" lang="fr">
 
@@ -34,7 +37,7 @@ idpopup = 2
     <meta name="title" content="Le Bruit du Marteau">
     <meta name="description"
         content="Si vous aimez la ferraille, vous aimerez le Bruit du Marteau. Le grand Bal des Ferrailleux !">
-    <meta name="keywords" content="le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage">
+    <meta name="keywords" content="le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, Scaffeurs, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -91,7 +94,9 @@ idpopup = 2
 
 </body>
 
-</html>";s:5:"mtime";i:1629913337;s:6:"markup";s:3543:"<!doctype html>
+</html>";s:5:"mtime";i:1630181344;s:6:"markup";s:3633:"<!-- ========================= Vue principale ========================= -->
+
+<!doctype html>
 <html class="no-js" lang="fr">
 
 <head>
@@ -124,7 +129,7 @@ idpopup = 2
     <meta name="title" content="Le Bruit du Marteau">
     <meta name="description"
         content="Si vous aimez la ferraille, vous aimerez le Bruit du Marteau. Le grand Bal des Ferrailleux !">
-    <meta name="keywords" content="le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage">
+    <meta name="keywords" content="le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, Scaffeurs, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">

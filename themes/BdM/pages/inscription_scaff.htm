@@ -3,12 +3,12 @@ url = "/inscription_scaff"
 layout = "default"
 is_hidden = 0
 ==
+
 {% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
-<!-- =========================  ========================= -->
-
+<!-- ========================= Page inscription scaff / intégration d'un Google form ========================= -->
 
 <div class="container container-fluid text-center">
     <h3 class="mt-5 mb-4" style="font-size: 2em; color:#EE8126;">Inscription SCAFF</h3>
@@ -17,15 +17,16 @@ is_hidden = 0
         <img src="{{ 'assets/img/hero/VisuelWeb2.jpg' | theme }}" alt="Illustration SCAFF"
             class="border rounded mw-100 mt-2">
     </div>
+
+    <!-- ========================= iframe vers Google form "inscrip scaff" ========================= -->
+
     <div>
         <iframe class="container-fluid vh-100 mt-2"
             src="https://docs.google.com/forms/d/e/1FAIpQLSc_W4TnYAnIyeF41ottY57HcOZaFj9W4lWN2sAqiGZ8ACftYQ/viewform?embedded=true"
             width=auto frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
     </div>
 </div>
+
 {% partial 'service' %}
-
-
-<!-- =========================  ========================= -->
 
 {% partial 'footer' %}

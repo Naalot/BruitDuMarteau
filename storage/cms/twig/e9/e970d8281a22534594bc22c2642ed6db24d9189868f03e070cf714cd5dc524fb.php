@@ -37,75 +37,77 @@ class __TwigTemplate_c528d80425b7c520035c0c5bb0a90aced29f49836ee74e67d1751073ef4
         $macros = $this->macros;
         // line 1
         echo "<div class=\"container mt-50\">
-    <hr/>
+    <hr />
 </div>
-<!-- ========================= partner-logo-section start ========================= -->
+
+<!-- ========================= Page logos partenaires ========================= -->
+
 <section class=\"client-logo-section pt-20 pb-30\">
     <div class=\"container\">
         <div class=\"client-logo-wrapper\">
             <div class=\"client-logo-carousel d-flex align-items-center justify-content-between\">
                 <div class=\"client-logo\">
                     <a href=\"";
-        // line 10
+        // line 12
         echo url("http://www.meyrie-village.com/");
         echo "\">
                         <img src=\"";
-        // line 11
+        // line 13
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/client-logo/meyrie.png");
         echo "\" alt=\"Ville de Meyrié\">
                     </a>
                 </div>
                 <div class=\"client-logo\">
                     <a href=\"";
-        // line 15
+        // line 17
         echo url("https://www.loxam.fr/");
         echo "\">
                         <img src=\"";
-        // line 16
+        // line 18
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/client-logo/loxam.svg");
         echo "\" alt=\"Loxam\">
                     </a>
                 </div>
                 <div class=\"client-logo\">
                     <a href=\"";
-        // line 20
+        // line 22
         echo url("https://letes-chapiteaux.com/");
         echo "\">
                         <img src=\"";
-        // line 21
+        // line 23
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/client-logo/etechap.png");
         echo "\" alt=\"Eté chapiteau\">
                     </a>
                 </div>
                 <div class=\"client-logo\">
                     <a href=\"";
-        // line 25
+        // line 27
         echo url("https://www.layher.fr/");
         echo "\">
                         <img src=\"";
-        // line 26
+        // line 28
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/client-logo/layher_logo.png");
         echo "\" alt=\"Layher\">
                     </a>
                 </div>
                 <div class=\"client-logo\">
                     <a href=\"";
-        // line 30
+        // line 32
         echo url("https://www.musicplusgrenoble.fr/");
         echo "\">
                         <img src=\"";
-        // line 31
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/client-logo/mplus.png");
         echo "\" alt=\"Music Plus\">
                     </a>
                 </div>
                 <div class=\"client-logo\">
                     <a href=\"";
-        // line 35
+        // line 37
         echo url("https://www.stageup.eu/");
         echo "\">
                         <img src=\"";
-        // line 36
+        // line 38
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/client-logo/stageup.png");
         echo "\" alt=\"Stage Up\">
                     </a>
@@ -113,8 +115,7 @@ class __TwigTemplate_c528d80425b7c520035c0c5bb0a90aced29f49836ee74e67d1751073ef4
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= partner-logo-section end ========================= -->";
+</section>";
     }
 
     public function getTemplateName()
@@ -129,15 +130,17 @@ class __TwigTemplate_c528d80425b7c520035c0c5bb0a90aced29f49836ee74e67d1751073ef4
 
     public function getDebugInfo()
     {
-        return array (  109 => 36,  105 => 35,  98 => 31,  94 => 30,  87 => 26,  83 => 25,  76 => 21,  72 => 20,  65 => 16,  61 => 15,  54 => 11,  50 => 10,  39 => 1,);
+        return array (  111 => 38,  107 => 37,  100 => 33,  96 => 32,  89 => 28,  85 => 27,  78 => 23,  74 => 22,  67 => 18,  63 => 17,  56 => 13,  52 => 12,  39 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<div class=\"container mt-50\">
-    <hr/>
+    <hr />
 </div>
-<!-- ========================= partner-logo-section start ========================= -->
+
+<!-- ========================= Page logos partenaires ========================= -->
+
 <section class=\"client-logo-section pt-20 pb-30\">
     <div class=\"container\">
         <div class=\"client-logo-wrapper\">
@@ -175,15 +178,14 @@ class __TwigTemplate_c528d80425b7c520035c0c5bb0a90aced29f49836ee74e67d1751073ef4
             </div>
         </div>
     </div>
-</section>
-<!-- ========================= partner-logo-section end ========================= -->", "D:\\xampp\\htdocs\\bdm_october/themes/BdM/partials/service.htm", "");
+</section>", "D:\\xampp\\htdocs\\bdm_october/themes/BdM/partials/service.htm", "");
     }
     
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("theme" => 11);
-        static $functions = array("url" => 10);
+        static $filters = array("theme" => 13);
+        static $functions = array("url" => 12);
 
         try {
             $this->sandbox->checkSecurity(

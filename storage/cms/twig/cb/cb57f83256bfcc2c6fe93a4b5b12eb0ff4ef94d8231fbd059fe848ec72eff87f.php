@@ -36,16 +36,18 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     {
         $macros = $this->macros;
         // line 1
-        echo "<!doctype html>
+        echo "<!-- ========================= Vue principale ========================= -->
+
+<!doctype html>
 <html class=\"no-js\" lang=\"fr\">
 
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     ";
-        // line 7
+        // line 9
         if (call_user_func_array($this->env->getFunction('allow_cookies')->getCallable(), [])) {
-            // line 8
+            // line 10
             echo "
     <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-179282164-1\"></script>
     <script>
@@ -61,7 +63,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     ";
         }
-        // line 22
+        // line 24
         echo "
     <!-- Meta -->
     <meta charset=\"utf-8\">
@@ -74,7 +76,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     <meta name=\"title\" content=\"Le Bruit du Marteau\">
     <meta name=\"description\"
         content=\"Si vous aimez la ferraille, vous aimerez le Bruit du Marteau. Le grand Bal des Ferrailleux !\">
-    <meta name=\"keywords\" content=\"le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage\">
+    <meta name=\"keywords\" content=\"le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, Scaffeurs, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage\">
 
     <!-- Open Graph / Facebook -->
     <meta property=\"og:type\" content=\"website\">
@@ -97,85 +99,85 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     <!-- ========================= CSS here ========================= -->
     <link rel=\"stylesheet\" href=\"";
-        // line 56
+        // line 58
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/bootstrap-5.0.0-alpha.min.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 57
+        // line 59
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/LineIcons.2.0.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 58
+        // line 60
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/animate.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 59
+        // line 61
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/main.css");
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 60
+        // line 62
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css");
         echo "\">
 
     ";
-        // line 62
+        // line 64
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 63
+        // line 65
         echo "
 </head>
 
 <body>
 
     ";
-        // line 68
+        // line 70
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 69
+        // line 71
         echo "
     <a href=\"#\" class=\"scroll-top\">
         <i class=\"lni lni-arrow-up\"></i>
     </a>
 
     ";
-        // line 74
+        // line 76
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("Popupconvertor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 75
+        // line 77
         echo "
     <!-- ========================= JS here ========================= -->
     <script src=\"https://code.jquery.com/jquery-3.6.0.js\"
         integrity=\"sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\" crossorigin=\"anonymous\"></script>
 
     ";
-        // line 80
+        // line 82
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 81
+        // line 83
         echo "
     <script src=\"";
-        // line 82
+        // line 84
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle-5.0.0.alpha-min.js");
         echo "\"></script>
     <script src=\"";
-        // line 83
+        // line 85
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 84
+        // line 86
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/imagesloaded.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 85
+        // line 87
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
 
     ";
-        // line 87
+        // line 89
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 88
+        // line 90
         echo "
 </body>
 
@@ -194,12 +196,14 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
 
     public function getDebugInfo()
     {
-        return array (  179 => 88,  176 => 87,  171 => 85,  167 => 84,  163 => 83,  159 => 82,  156 => 81,  152 => 80,  145 => 75,  141 => 74,  134 => 69,  132 => 68,  125 => 63,  122 => 62,  117 => 60,  113 => 59,  109 => 58,  105 => 57,  101 => 56,  65 => 22,  49 => 8,  47 => 7,  39 => 1,);
+        return array (  181 => 90,  178 => 89,  173 => 87,  169 => 86,  165 => 85,  161 => 84,  158 => 83,  154 => 82,  147 => 77,  143 => 76,  136 => 71,  134 => 70,  127 => 65,  124 => 64,  119 => 62,  115 => 61,  111 => 60,  107 => 59,  103 => 58,  67 => 24,  51 => 10,  49 => 9,  39 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<!doctype html>
+        return new Source("<!-- ========================= Vue principale ========================= -->
+
+<!doctype html>
 <html class=\"no-js\" lang=\"fr\">
 
 <head>
@@ -232,7 +236,7 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     <meta name=\"title\" content=\"Le Bruit du Marteau\">
     <meta name=\"description\"
         content=\"Si vous aimez la ferraille, vous aimerez le Bruit du Marteau. Le grand Bal des Ferrailleux !\">
-    <meta name=\"keywords\" content=\"le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage\">
+    <meta name=\"keywords\" content=\"le bruit du marteau, festival, Meyrié, 38300 Meyrié, SCAFF, association scaff, Scaffeurs, presque bdm, championnat, monteurs d'échafaudage, championnat de monteurs d'échafaudage\">
 
     <!-- Open Graph / Facebook -->
     <meta property=\"og:type\" content=\"website\">
@@ -294,9 +298,9 @@ class __TwigTemplate_97ec62cc0f4fa6e580ef3ada9d6517d945f2634c60bb26bae43ab935207
     
     public function checkSecurity()
     {
-        static $tags = array("if" => 7, "styles" => 62, "page" => 68, "component" => 74, "framework" => 80, "scripts" => 87);
-        static $filters = array("theme" => 56);
-        static $functions = array("allow_cookies" => 7);
+        static $tags = array("if" => 9, "styles" => 64, "page" => 70, "component" => 76, "framework" => 82, "scripts" => 89);
+        static $filters = array("theme" => 58);
+        static $functions = array("allow_cookies" => 9);
 
         try {
             $this->sandbox->checkSecurity(

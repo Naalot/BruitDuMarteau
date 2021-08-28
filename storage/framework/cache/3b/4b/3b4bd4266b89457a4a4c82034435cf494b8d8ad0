@@ -1,5 +1,8 @@
-1629916201a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4717:"[viewBag]
+1630182062a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4971:"[viewBag]
 ==
+
+<!-- ========================= Partiel pied de page ========================= -->
+
 <footer class="footer pt-10">
     <div class="container">
         <div class="row">
@@ -13,6 +16,7 @@
                         trouver sa place.</p>
                 </div>
             </div>
+
             <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
                 <div class="footer-widget mb-5 wow fadeInUp" data-wow-delay=".4s">
                     <h4>Navigation</h4>
@@ -33,6 +37,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".6s">
                     <h4>Activités</h4>
@@ -45,12 +50,14 @@
                             <a href="{{ url('/championnat') }}">Championnat</a>
                         </li>
                         <li>
-                            <a href="{{ url('/404') }}">Inscription</a>
+                            <a href="{{ url('/inscription') }}">Inscription</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
+
+            <!-- ========================= Div temporairement désactivée "adresse + tel" ========================= -->
 
             <!--<div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s">
@@ -69,6 +76,7 @@
                     </ul>
                 </div>
             </div>-->
+
         </div>
 
         <div class="copyright-area">
@@ -87,8 +95,12 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <!--<p class="wow fadeInUp" data-wow-delay=".3s">Template Designed by <a
-                        href="https://GrayGrids.com" rel="nofollow">GrayGrids</a></p>-->
+
+<!-- ========================= Lien vers portfolio LB ========================= -->
+
+                    <!--<p class="wow fadeInUp" data-wow-delay=".3s">"."<a
+                        href="#" rel="nofollow">GrayGrids</a></p>-->
+
                     <p>© <script>
                             new Date().getFullYear() > 2016 && document.write(" " + new Date().getFullYear());
                         </script> | Le Bruit du Marteau</p>
@@ -96,7 +108,9 @@
             </div>
         </div>
     </div>
-</footer>";s:5:"mtime";i:1629913608;s:6:"markup";s:4702:"<footer class="footer pt-10">
+</footer>";s:5:"mtime";i:1630180767;s:6:"markup";s:4954:"<!-- ========================= Partiel pied de page ========================= -->
+
+<footer class="footer pt-10">
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -109,6 +123,7 @@
                         trouver sa place.</p>
                 </div>
             </div>
+
             <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
                 <div class="footer-widget mb-5 wow fadeInUp" data-wow-delay=".4s">
                     <h4>Navigation</h4>
@@ -129,6 +144,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".6s">
                     <h4>Activités</h4>
@@ -141,12 +157,14 @@
                             <a href="{{ url('/championnat') }}">Championnat</a>
                         </li>
                         <li>
-                            <a href="{{ url('/404') }}">Inscription</a>
+                            <a href="{{ url('/inscription') }}">Inscription</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
+
+            <!-- ========================= Div temporairement désactivée "adresse + tel" ========================= -->
 
             <!--<div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s">
@@ -165,6 +183,7 @@
                     </ul>
                 </div>
             </div>-->
+
         </div>
 
         <div class="copyright-area">
@@ -183,8 +202,12 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <!--<p class="wow fadeInUp" data-wow-delay=".3s">Template Designed by <a
-                        href="https://GrayGrids.com" rel="nofollow">GrayGrids</a></p>-->
+
+<!-- ========================= Lien vers portfolio LB ========================= -->
+
+                    <!--<p class="wow fadeInUp" data-wow-delay=".3s">"."<a
+                        href="#" rel="nofollow">GrayGrids</a></p>-->
+
                     <p>© <script>
                             new Date().getFullYear() > 2016 && document.write(" " + new Date().getFullYear());
                         </script> | Le Bruit du Marteau</p>

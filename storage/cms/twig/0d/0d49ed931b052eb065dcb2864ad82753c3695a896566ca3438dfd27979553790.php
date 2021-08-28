@@ -48,6 +48,15 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
         unset($context['__cms_component_params']);
         // line 4
         echo "
+";
+        // line 5
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("alert-annulation"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 6
+        echo "
+<!-- ========================= Page championnat ========================= -->
+
 <div class=\"container text-center\">
     <h1 class=\"mb-10 wow fadeInDown\" data-wow-delay=\".2s\" style=\"font-size: 2em; color:#EE8126;\">Le Bruit du Marteau
     </h1>
@@ -79,31 +88,32 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
                 <p class=\"mb-2 wow fadeInDown\" data-wow-delay=\".4s\">Fair-play, échange, reconnaissance et écoute sont
                     les valeurs sur lesquelles est construit ce championnat.</p>
                 <p class=\"mb-0.5 wow fadeInDown\" data-wow-delay=\".4s\">En collaboration avec des professionnels du
-                    métiers nous avons mis au point 5 épreuves originales :</p>
+                    métier nous avons mis au point 5 épreuves originales :</p>
                 <p class=\"mb-3 wow fadeInDown\" data-wow-delay=\".4s\">Le lac des Scaffs, ballet pour une moise ; l'Arche
-                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le poteaux rose.</p>
+                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le Poteau rose.</p>
                 <a href=\"";
-        // line 39
+        // line 43
         echo url("/inscription");
         echo "\" class=\"mb-4 wow fadeInDown theme-btn\"
                     data-wow-delay=\".4s\">Inscription concurrents</a>
                 <p class=\"mb-3 wow fadeInDown\" data-wow-delay=\".4s\" style=\"font-weight: bolder;\">Bénévole sans vous on
                     le fait pas !</p>
                 <a href=\"";
-        // line 43
+        // line 47
         echo url("/inscription");
         echo "\" class=\"mb-3 wow fadeInDown theme-btn\"
                     data-wow-delay=\".4s\">Inscription volontaires</a>
             </div>
         </div>
+        
         <div class=\"col-xl-7 col-lg-6\">
             <div class=\"text-center\">
                 <div class=\"d-inline-block pt-5\">
                     <img class=\"border border-dark border-4\" src=\"";
-        // line 50
+        // line 55
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/hero/championnat_bdm.jpg");
-        echo "\" alt=\"\" class=\"wow fadeInRight\"
-                        data-wow-delay=\".5s\" style=\"max-width: 100%;\">
+        echo "\"
+                        alt=\"\" class=\"wow fadeInRight\" data-wow-delay=\".5s\" style=\"max-width: 100%;\">
                 </div>
             </div>
         </div>
@@ -127,14 +137,14 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
 </div>
 
 ";
-        // line 74
+        // line 79
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("service"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 75
+        // line 80
         echo "
 ";
-        // line 76
+        // line 81
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -152,7 +162,7 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
 
     public function getDebugInfo()
     {
-        return array (  138 => 76,  135 => 75,  131 => 74,  104 => 50,  94 => 43,  87 => 39,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
+        return array (  148 => 81,  145 => 80,  141 => 79,  114 => 55,  103 => 47,  96 => 43,  57 => 6,  53 => 5,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -160,6 +170,10 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
         return new Source("{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
+
+{% partial 'alert-annulation' %}
+
+<!-- ========================= Page championnat ========================= -->
 
 <div class=\"container text-center\">
     <h1 class=\"mb-10 wow fadeInDown\" data-wow-delay=\".2s\" style=\"font-size: 2em; color:#EE8126;\">Le Bruit du Marteau
@@ -192,9 +206,9 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
                 <p class=\"mb-2 wow fadeInDown\" data-wow-delay=\".4s\">Fair-play, échange, reconnaissance et écoute sont
                     les valeurs sur lesquelles est construit ce championnat.</p>
                 <p class=\"mb-0.5 wow fadeInDown\" data-wow-delay=\".4s\">En collaboration avec des professionnels du
-                    métiers nous avons mis au point 5 épreuves originales :</p>
+                    métier nous avons mis au point 5 épreuves originales :</p>
                 <p class=\"mb-3 wow fadeInDown\" data-wow-delay=\".4s\">Le lac des Scaffs, ballet pour une moise ; l'Arche
-                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le poteaux rose.</p>
+                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le Poteau rose.</p>
                 <a href=\"{{ url('/inscription') }}\" class=\"mb-4 wow fadeInDown theme-btn\"
                     data-wow-delay=\".4s\">Inscription concurrents</a>
                 <p class=\"mb-3 wow fadeInDown\" data-wow-delay=\".4s\" style=\"font-weight: bolder;\">Bénévole sans vous on
@@ -203,11 +217,12 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
                     data-wow-delay=\".4s\">Inscription volontaires</a>
             </div>
         </div>
+        
         <div class=\"col-xl-7 col-lg-6\">
             <div class=\"text-center\">
                 <div class=\"d-inline-block pt-5\">
-                    <img class=\"border border-dark border-4\" src=\"{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}\" alt=\"\" class=\"wow fadeInRight\"
-                        data-wow-delay=\".5s\" style=\"max-width: 100%;\">
+                    <img class=\"border border-dark border-4\" src=\"{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}\"
+                        alt=\"\" class=\"wow fadeInRight\" data-wow-delay=\".5s\" style=\"max-width: 100%;\">
                 </div>
             </div>
         </div>
@@ -238,8 +253,8 @@ class __TwigTemplate_298c64bde0e45bd2ca692c7c5e3ce6bc400f4f4401b49275cddbd46f819
     public function checkSecurity()
     {
         static $tags = array("partial" => 1, "component" => 3);
-        static $filters = array("theme" => 50);
-        static $functions = array("url" => 39);
+        static $filters = array("theme" => 55);
+        static $functions = array("url" => 43);
 
         try {
             $this->sandbox->checkSecurity(

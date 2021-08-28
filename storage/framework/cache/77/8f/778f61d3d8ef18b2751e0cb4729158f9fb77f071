@@ -1,31 +1,42 @@
-1629916201a:1:{s:15:"inscription.htm";a:10:{s:8:"fileName";s:15:"inscription.htm";s:7:"content";s:873:"title = "inscription"
+1630182062a:1:{s:15:"inscription.htm";a:10:{s:8:"fileName";s:15:"inscription.htm";s:7:"content";s:1003:"title = "inscription"
 url = "/inscription"
 layout = "default"
 description = "Page principale \"Inscription\""
 is_hidden = 0
 ==
+
 {% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
+<!-- ========================= Page inscription "parent" temporaire ========================= -->
+
 <div class="container text-center">
     <h1 class="mb-20 wow fadeInDown" data-wow-delay=".2s" style="font-size: 2em; color:#EE8126;">Inscriptions</h1>
-    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Cette année il n'y aura pas d'inscriptions parceque pas de championnat</p>
-    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pour nous aussi c'est triste !</p>
-    <p class="mb-20 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pas d'inquiétudes, on revient bientôt.</p>
+    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Cette année il n'y
+        aura pas d'inscriptions parceque pas de championnat</p>
+    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pour nous aussi
+        c'est triste !</p>
+    <p class="mb-20 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pas d'inquiétudes,
+        on revient bientôt.</p>
 </div>
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1629900157;s:6:"markup";s:740:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1630180388;s:6:"markup";s:868:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
+<!-- ========================= Page inscription "parent" temporaire ========================= -->
+
 <div class="container text-center">
     <h1 class="mb-20 wow fadeInDown" data-wow-delay=".2s" style="font-size: 2em; color:#EE8126;">Inscriptions</h1>
-    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Cette année il n'y aura pas d'inscriptions parceque pas de championnat</p>
-    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pour nous aussi c'est triste !</p>
-    <p class="mb-20 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pas d'inquiétudes, on revient bientôt.</p>
+    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Cette année il n'y
+        aura pas d'inscriptions parceque pas de championnat</p>
+    <p class="mb-2 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pour nous aussi
+        c'est triste !</p>
+    <p class="mb-20 wow fadeInLeft" data-wow-delay=".4s" style="font-size: 1em; font-weight: bolder;">Pas d'inquiétudes,
+        on revient bientôt.</p>
 </div>
 
 {% partial 'service' %}

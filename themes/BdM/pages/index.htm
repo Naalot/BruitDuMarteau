@@ -3,13 +3,14 @@ url = "/"
 layout = "default"
 is_hidden = 0
 ==
+
 {% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
 
-<!-- ========================= home-div start ========================= -->
+{% partial 'alert-annulation' %}
 
-
+<!-- ========================= Page d'accueil temporaire ========================= -->
 
 <div class="container text-center">
 
@@ -62,6 +63,7 @@ is_hidden = 0
                     partir de 18h</p>
             </div>
         </div>
+
         <div class="col-xl-7 col-lg-6">
             <div class="text-center">
                 <div class="d-inline-block pt-5">
@@ -74,8 +76,5 @@ is_hidden = 0
 </div>
 
 {% partial 'service' %}
-
-
-<!-- ========================= home-div end ========================= -->
 
 {% partial 'footer' %}

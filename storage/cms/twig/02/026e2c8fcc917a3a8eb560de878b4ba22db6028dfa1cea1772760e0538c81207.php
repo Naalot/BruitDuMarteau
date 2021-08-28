@@ -48,9 +48,14 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
         unset($context['__cms_component_params']);
         // line 4
         echo "
-<!-- ========================= home-div start ========================= -->
-
-
+";
+        // line 5
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("alert-annulation"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 6
+        echo "
+<!-- ========================= Page d'accueil temporaire ========================= -->
 
 <div class=\"container text-center\">
 
@@ -106,11 +111,12 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
                     partir de 18h</p>
             </div>
         </div>
+
         <div class=\"col-xl-7 col-lg-6\">
             <div class=\"text-center\">
                 <div class=\"d-inline-block pt-5\">
                     <img src=\"";
-        // line 63
+        // line 64
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/hero/BdMview.jpg");
         echo "\" alt=\"\" class=\"wow fadeInRight\"
                         data-wow-delay=\".5s\" style=\"max-width: 100%;\">
@@ -121,17 +127,14 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
 </div>
 
 ";
-        // line 71
+        // line 72
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("service"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 72
+        // line 73
         echo "
-
-<!-- ========================= home-div end ========================= -->
-
 ";
-        // line 76
+        // line 74
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -149,7 +152,7 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
 
     public function getDebugInfo()
     {
-        return array (  135 => 76,  129 => 72,  125 => 71,  114 => 63,  102 => 54,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
+        return array (  138 => 74,  135 => 73,  131 => 72,  120 => 64,  107 => 54,  57 => 6,  53 => 5,  50 => 4,  46 => 3,  43 => 2,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -158,9 +161,9 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
 
 {% component 'siteSearchInclude' %}
 
-<!-- ========================= home-div start ========================= -->
+{% partial 'alert-annulation' %}
 
-
+<!-- ========================= Page d'accueil temporaire ========================= -->
 
 <div class=\"container text-center\">
 
@@ -213,6 +216,7 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
                     partir de 18h</p>
             </div>
         </div>
+
         <div class=\"col-xl-7 col-lg-6\">
             <div class=\"text-center\">
                 <div class=\"d-inline-block pt-5\">
@@ -226,16 +230,13 @@ class __TwigTemplate_28acff4964eff05aaf6e5a236466ccffe6fe1a407d9c40e9717f7ecd24d
 
 {% partial 'service' %}
 
-
-<!-- ========================= home-div end ========================= -->
-
 {% partial 'footer' %}", "D:\\xampp\\htdocs\\bdm_october/themes/BdM/pages/index.htm", "");
     }
     
     public function checkSecurity()
     {
         static $tags = array("partial" => 1, "component" => 3);
-        static $filters = array("theme" => 63);
+        static $filters = array("theme" => 64);
         static $functions = array("url" => 54);
 
         try {

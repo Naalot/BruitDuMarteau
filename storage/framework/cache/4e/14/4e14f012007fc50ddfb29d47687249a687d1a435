@@ -1,8 +1,9 @@
-1629916201a:1:{s:7:"404.htm";a:9:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1487:"title = 404
+1630182062a:1:{s:7:"404.htm";a:9:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1565:"title = 404
 url = "/404"
 layout = "default"
 is_hidden = 0
 ==
+<!-- ========================= Page erreur 404 ========================= -->
 
 {% partial 'header' %}
 
@@ -40,7 +41,9 @@ is_hidden = 0
     </div>
 </section>
 
-{% partial 'footer' %}";s:5:"mtime";i:1629272413;s:6:"markup";s:1419:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1630179258;s:6:"markup";s:1499:"<!-- ========================= Page erreur 404 ========================= -->
+
+{% partial 'header' %}
 
 <!--<section class="page-banner-section pt-35 pb-35 img-bg" style="background-image: url('{{ 'assets/img/bg/common-bg.svg' | theme }}')">
     <div class="container">

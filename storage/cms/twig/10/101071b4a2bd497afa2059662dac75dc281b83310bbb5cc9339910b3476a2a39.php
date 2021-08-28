@@ -36,18 +36,20 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
     {
         $macros = $this->macros;
         // line 1
-        echo "<header class=\"header navbar-area position-sticky mb-3\">
+        echo "<!-- ========================= Partiel header ========================= -->
+
+<header class=\"header navbar-area position-sticky mb-3\">
     <div class=\"container-fluid\" style=\"padding: 0;\">
         <div class=\"row align-items-center\">
             <div class=\"col-lg-12\">
                 <nav class=\"navbar navbar-expand-lg pt-1 pb-1\"
                     style=\"background-color: #EE8126; padding: 1em; color:#666666;\">
                     <a class=\"navbar-brand\" href=\"";
-        // line 7
+        // line 9
         echo url("/");
         echo "\">
                         <img src=\"";
-        // line 8
+        // line 10
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo/BdMlogo.png");
         echo "\" alt=\"Logo\">
                     </a>
@@ -60,10 +62,12 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                     </button>
 
                     <div class=\"collapse navbar-collapse sub-menu-bar\" id=\"navbarSupportedContent\">
+
                         <ul id=\"nav\" class=\"navbar-nav ml-auto\">
+
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 21
+        // line 25
         echo url("/");
         echo "\">Accueil</a>
                             </li>
@@ -73,7 +77,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     Infos
                                 </a>-->
                                 <a class=\"nav-link\" href=\"";
-        // line 28
+        // line 32
         echo url("/Presque_BdM");
         echo "\" id=\"navbarDropdown\" role=\"button\"
                                     data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
@@ -83,16 +87,18 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
                             <li class=\"nav-item dropdown\"><a class=\"page-scroll\"
                                     href=\"";
-        // line 35
+        // line 39
         echo url("/championnat");
         echo "\">Championnat</a></li>
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 38
+        // line 42
         echo url("/inscription");
         echo "\">Inscription</a>
                             </li>
+
+                            <!-- ========================= Liens vers formulaires d'inscription désactivés ========================= -->
 
                             <!--<li class=\"nav-item dropdown\">
                                 <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\"
@@ -101,7 +107,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 </a>
                                 <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                     <li><a class=\"dropdown-item\" href=\"";
-        // line 47
+        // line 53
         echo url("/inscription_scaff");
         echo "\">SCAFF</a></li>
                                     <li>
@@ -109,7 +115,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     </li>
                                     <li><a class=\"dropdown-item\"
                                             href=\"";
-        // line 52
+        // line 58
         echo url("/inscription_benevoles");
         echo "\">Bénévoles</a></li>
                                 </ul>
@@ -117,14 +123,16 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"";
-        // line 57
+        // line 63
         echo url("/gallery");
         echo "\">Galerie</a>
                             </li>
 
+                            <!-- ========================= Ajout futur \"Contact\" / \"Le lieu\" / \"Partenaires\" ========================= -->
+
                             <li class=\"nav-item dropdown\">
                                 <!--<a class=\"nav-link dropdown-toggle\" href=\"";
-        // line 61
+        // line 69
         echo url("/contact");
         echo "\"
                                     id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
@@ -132,7 +140,7 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                     Contacts
                                 </a>-->
                                 <a class=\"nav-link\" href=\"";
-        // line 66
+        // line 74
         echo url("/contact");
         echo "\" id=\"navbarDropdownMenuLink\"
                                     role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
@@ -141,12 +149,12 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 <!--
                                 <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 72
+        // line 80
         echo url("/contact");
         echo "\">Nous contacter</a></li>
                                   <li><hr class=\"dropdown-divider\"></li>
                                   <li><a class=\"dropdown-item\" href=\"";
-        // line 74
+        // line 82
         echo url("/404");
         echo "\">Partenaires</a></li>
                                 </ul>-->
@@ -154,8 +162,10 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
                         </ul>
 
+                        <!-- ========================= Barre de recherche ========================= -->
+
                         <form action=\"";
-        // line 80
+        // line 90
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("recherche");
         echo "\" method=\"get\" class=\"search-form\">
                             <input name=\"q\" type=\"text\" placeholder=\"Recherche\" autocomplete=\"off\">
@@ -167,7 +177,6 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
             </div>
         </div>
     </div>
-
 </header>";
     }
 
@@ -183,12 +192,14 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
     public function getDebugInfo()
     {
-        return array (  159 => 80,  150 => 74,  145 => 72,  136 => 66,  128 => 61,  121 => 57,  113 => 52,  105 => 47,  93 => 38,  87 => 35,  77 => 28,  67 => 21,  51 => 8,  47 => 7,  39 => 1,);
+        return array (  169 => 90,  158 => 82,  153 => 80,  144 => 74,  136 => 69,  127 => 63,  119 => 58,  111 => 53,  97 => 42,  91 => 39,  81 => 32,  71 => 25,  53 => 10,  49 => 9,  39 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<header class=\"header navbar-area position-sticky mb-3\">
+        return new Source("<!-- ========================= Partiel header ========================= -->
+
+<header class=\"header navbar-area position-sticky mb-3\">
     <div class=\"container-fluid\" style=\"padding: 0;\">
         <div class=\"row align-items-center\">
             <div class=\"col-lg-12\">
@@ -206,7 +217,9 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                     </button>
 
                     <div class=\"collapse navbar-collapse sub-menu-bar\" id=\"navbarSupportedContent\">
+
                         <ul id=\"nav\" class=\"navbar-nav ml-auto\">
+
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"{{ url('/') }}\">Accueil</a>
                             </li>
@@ -228,6 +241,8 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                                 <a class=\"page-scroll\" href=\"{{ url('/inscription') }}\">Inscription</a>
                             </li>
 
+                            <!-- ========================= Liens vers formulaires d'inscription désactivés ========================= -->
+
                             <!--<li class=\"nav-item dropdown\">
                                 <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\"
                                     data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
@@ -246,6 +261,8 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
                             <li class=\"nav-item\">
                                 <a class=\"page-scroll\" href=\"{{ url('/gallery') }}\">Galerie</a>
                             </li>
+
+                            <!-- ========================= Ajout futur \"Contact\" / \"Le lieu\" / \"Partenaires\" ========================= -->
 
                             <li class=\"nav-item dropdown\">
                                 <!--<a class=\"nav-link dropdown-toggle\" href=\"{{ url('/contact') }}\"
@@ -267,6 +284,8 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
 
                         </ul>
 
+                        <!-- ========================= Barre de recherche ========================= -->
+
                         <form action=\"{{ 'recherche' | page }}\" method=\"get\" class=\"search-form\">
                             <input name=\"q\" type=\"text\" placeholder=\"Recherche\" autocomplete=\"off\">
                             <button type=\"submit\"><i class=\"lni lni-search-alt\"></i></button>
@@ -277,15 +296,14 @@ class __TwigTemplate_a4e3e09ab575441a49d4a9bfbd62c5ad3b26fc21718de68ce0a8c95e9f9
             </div>
         </div>
     </div>
-
 </header>", "D:\\xampp\\htdocs\\bdm_october/themes/BdM/partials/header.htm", "");
     }
     
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("theme" => 8, "page" => 80);
-        static $functions = array("url" => 7);
+        static $filters = array("theme" => 10, "page" => 90);
+        static $functions = array("url" => 9);
 
         try {
             $this->sandbox->checkSecurity(

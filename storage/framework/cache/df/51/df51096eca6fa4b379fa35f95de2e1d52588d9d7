@@ -1,4 +1,4 @@
-1629916201a:1:{s:15:"championnat.htm";a:10:{s:8:"fileName";s:15:"championnat.htm";s:7:"content";s:4593:"title = "championnat"
+1630182062a:1:{s:15:"championnat.htm";a:10:{s:8:"fileName";s:15:"championnat.htm";s:7:"content";s:4718:"title = "championnat"
 url = "/championnat"
 layout = "default"
 description = "Page description championnat"
@@ -7,6 +7,10 @@ is_hidden = 0
 {% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
+
+{% partial 'alert-annulation' %}
+
+<!-- ========================= Page championnat ========================= -->
 
 <div class="container text-center">
     <h1 class="mb-10 wow fadeInDown" data-wow-delay=".2s" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau
@@ -39,9 +43,9 @@ is_hidden = 0
                 <p class="mb-2 wow fadeInDown" data-wow-delay=".4s">Fair-play, échange, reconnaissance et écoute sont
                     les valeurs sur lesquelles est construit ce championnat.</p>
                 <p class="mb-0.5 wow fadeInDown" data-wow-delay=".4s">En collaboration avec des professionnels du
-                    métiers nous avons mis au point 5 épreuves originales :</p>
+                    métier nous avons mis au point 5 épreuves originales :</p>
                 <p class="mb-3 wow fadeInDown" data-wow-delay=".4s">Le lac des Scaffs, ballet pour une moise ; l'Arche
-                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le poteaux rose.</p>
+                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le Poteau rose.</p>
                 <a href="{{ url('/inscription') }}" class="mb-4 wow fadeInDown theme-btn"
                     data-wow-delay=".4s">Inscription concurrents</a>
                 <p class="mb-3 wow fadeInDown" data-wow-delay=".4s" style="font-weight: bolder;">Bénévole sans vous on
@@ -50,11 +54,12 @@ is_hidden = 0
                     data-wow-delay=".4s">Inscription volontaires</a>
             </div>
         </div>
+        
         <div class="col-xl-7 col-lg-6">
             <div class="text-center">
                 <div class="d-inline-block pt-5">
-                    <img class="border border-dark border-4" src="{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}" alt="" class="wow fadeInRight"
-                        data-wow-delay=".5s" style="max-width: 100%;">
+                    <img class="border border-dark border-4" src="{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}"
+                        alt="" class="wow fadeInRight" data-wow-delay=".5s" style="max-width: 100%;">
                 </div>
             </div>
         </div>
@@ -79,9 +84,13 @@ is_hidden = 0
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1629278461;s:6:"markup";s:4463:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1630179528;s:6:"markup";s:4588:"{% partial 'header' %}
 
 {% component 'siteSearchInclude' %}
+
+{% partial 'alert-annulation' %}
+
+<!-- ========================= Page championnat ========================= -->
 
 <div class="container text-center">
     <h1 class="mb-10 wow fadeInDown" data-wow-delay=".2s" style="font-size: 2em; color:#EE8126;">Le Bruit du Marteau
@@ -114,9 +123,9 @@ is_hidden = 0
                 <p class="mb-2 wow fadeInDown" data-wow-delay=".4s">Fair-play, échange, reconnaissance et écoute sont
                     les valeurs sur lesquelles est construit ce championnat.</p>
                 <p class="mb-0.5 wow fadeInDown" data-wow-delay=".4s">En collaboration avec des professionnels du
-                    métiers nous avons mis au point 5 épreuves originales :</p>
+                    métier nous avons mis au point 5 épreuves originales :</p>
                 <p class="mb-3 wow fadeInDown" data-wow-delay=".4s">Le lac des Scaffs, ballet pour une moise ; l'Arche
-                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le poteaux rose.</p>
+                    des triomphes ; Fer et Défaire ; Dessines et guides moi ; Le Poteau rose.</p>
                 <a href="{{ url('/inscription') }}" class="mb-4 wow fadeInDown theme-btn"
                     data-wow-delay=".4s">Inscription concurrents</a>
                 <p class="mb-3 wow fadeInDown" data-wow-delay=".4s" style="font-weight: bolder;">Bénévole sans vous on
@@ -125,11 +134,12 @@ is_hidden = 0
                     data-wow-delay=".4s">Inscription volontaires</a>
             </div>
         </div>
+        
         <div class="col-xl-7 col-lg-6">
             <div class="text-center">
                 <div class="d-inline-block pt-5">
-                    <img class="border border-dark border-4" src="{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}" alt="" class="wow fadeInRight"
-                        data-wow-delay=".5s" style="max-width: 100%;">
+                    <img class="border border-dark border-4" src="{{ 'assets/img/hero/championnat_bdm.jpg' | theme }}"
+                        alt="" class="wow fadeInRight" data-wow-delay=".5s" style="max-width: 100%;">
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-1629916201a:1:{s:13:"recherche.htm";a:10:{s:8:"fileName";s:13:"recherche.htm";s:7:"content";s:406:"title = "Recherche"
+1630182062a:1:{s:13:"recherche.htm";a:10:{s:8:"fileName";s:13:"recherche.htm";s:7:"content";s:511:"title = "Recherche"
 url = "/recherche"
 layout = "default"
 is_hidden = 0
@@ -9,7 +9,10 @@ showProviderBadge = 1
 noResultsMessage = "Aucun résultat pour votre recherche"
 visitPageMessage = "Visiter la page"
 ==
+
 {% partial 'header' %}
+
+<!-- ========================= Page affichage résultat search result ========================= -->
 
 <h2>Résultats pour "{{ searchResults.query }}"</h2>
 
@@ -17,7 +20,9 @@ visitPageMessage = "Visiter la page"
 
 {% partial 'service' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1626677783;s:6:"markup";s:166:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1630180504;s:6:"markup";s:269:"{% partial 'header' %}
+
+<!-- ========================= Page affichage résultat search result ========================= -->
 
 <h2>Résultats pour "{{ searchResults.query }}"</h2>
 
